@@ -9,7 +9,8 @@ export function Header() {
             'font-headline text-4xl font-black uppercase tracking-tight text-foreground md:text-6xl'
           )}
         >
-          Descubra a técnica mais utilizada pela indústria adulta neste momento
+          Descubra a técnica mais utilizada neste momento pela{' '}
+          <span className="text-primary">indústria adulta</span>
         </h1>
         <p className="mt-4 font-headline text-2xl font-bold md:text-3xl">
           O Segredo Nº1 dos Atores Pornô –{' '}
