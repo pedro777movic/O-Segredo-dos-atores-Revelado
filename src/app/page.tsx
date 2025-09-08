@@ -10,6 +10,7 @@ import { FinalCTA } from '@/components/landing/FinalCTA';
 import { Separator } from '@/components/ui/separator';
 import { Pricing } from '@/components/landing/Pricing';
 import { Footer } from '@/components/landing/Footer';
+import { WhatYouWillLearn } from '@/components/landing/WhatYouWillLearn';
 
 export default function Home() {
   return (
@@ -37,6 +38,8 @@ export default function Home() {
           <Benefits />
           <Separator className="my-12" />
           <ProductMockup />
+          <Separator className="my-12" />
+          <WhatYouWillLearn />
           <Separator className="my-12" />
           <PersuasionSection />
           <Separator className="my-12" />
