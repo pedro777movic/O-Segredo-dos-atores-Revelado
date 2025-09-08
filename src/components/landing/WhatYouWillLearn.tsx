@@ -4,7 +4,7 @@ const learningPoints = [
   {
     title: 'Controle Total',
     description:
-      'Aprenda a construir uma mentalidade de confiança que se traduz diretamente em sua performance. Técnicas para eliminar a ansiedade e a insegurança antes e durante o ato.',
+      "Domine as técnicas de controle ejaculatório que os atores usam para prolongar o prazer e decidir o momento exato do clímax. Surpreenda com sua resistência.",
     image: {
       src: 'https://i.imgur.com/LCoflI0.png',
       alt: 'Capa do Ebook com fundo preto e dourado',
