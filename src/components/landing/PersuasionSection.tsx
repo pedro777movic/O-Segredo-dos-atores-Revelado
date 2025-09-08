@@ -3,9 +3,11 @@ export function PersuasionSection() {
     <section id="persuasion" className="py-12">
       <div className="mx-auto max-w-3xl space-y-6 text-center">
         <h2 className="font-headline text-2xl font-bold leading-tight text-foreground md:text-4xl">
-          Ensinando a como você ter a mesma{' '}
-          <span className="text-primary">confiança e controle</span> que eles
-          têm.
+          Este ebook ensinará você a ter o mesmo{' '}
+          <span className="text-primary">
+            controle, resistência e confiança
+          </span>{' '}
+          dos atores de maior performance da indústria pornográfica.
         </h2>
         <p className="text-xl text-muted-foreground md:text-2xl">
           Para nunca mais se sentir inseguro na hora H.
