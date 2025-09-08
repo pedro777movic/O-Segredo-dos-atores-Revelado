@@ -15,7 +15,7 @@ const plans = [
       'Ansiedade na performance',
       'Postura errada e músculos pélvicos fracos',
       'BÔNUS #04: Dominando a sexualidade masculina e Técnicas dos mestres',
-      'BÔNUS #05: Fitness Sexual.',
+      'Mente capacitada e Poderes da Respiração',
       'BÔNUS #06: Mente Sã, Corpo Potente.',
       'BÔNUS #07: Guia de Suplementos Naturais.',
     ],
