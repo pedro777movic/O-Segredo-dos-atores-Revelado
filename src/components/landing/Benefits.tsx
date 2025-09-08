@@ -10,7 +10,7 @@ import {
 const benefits = [
   {
     icon: Star,
-    text: 'O segredo do momento utilizado na indústria pornô. Vinda dos bastidores, passada de ator para ator.',
+    text: 'O segredo do momento utilizado pelos homens da indústria pornô para performance sexual. Vinda dos bastidores, passada de ator para ator.',
   },
   {
     icon: Leaf,
