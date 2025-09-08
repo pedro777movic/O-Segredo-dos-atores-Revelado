@@ -17,7 +17,7 @@ const plans = [
       'BÔNUS #04: Dominando a sexualidade masculina e Técnicas dos mestres',
       'Mente capacitada e Poderes da Respiração',
       'Controle do corpo e Corpo Potente',
-      'BÔNUS #07: Guia de Suplementos Naturais.',
+      'Controle da parceira e Super Habilidades Sexuais',
     ],
     buttonText: 'Quero o Combo Completo',
     bgColor: 'bg-primary',
