@@ -12,7 +12,7 @@ const plans = [
     features: [
       'O Segredo Nº1 dos Atores Pornô.',
       'Ejaculação precoce e hábitos de masturbação',
-      'BÔNUS #02: Confiança Inabalável.',
+      'Ansiedade na performance',
       'BÔNUS #03: Comunicação Sedutora.',
       'BÔNUS #04: Dominando o Prazer.',
       'BÔNUS #05: Fitness Sexual.',
