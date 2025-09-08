@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const learningPoints = [
   {
-    title: 'Confiança Inabalável',
+    title: 'Controle Total',
     description:
       'Aprenda a construir uma mentalidade de confiança que se traduz diretamente em sua performance. Técnicas para eliminar a ansiedade e a insegurança antes e durante o ato.',
     image: {
