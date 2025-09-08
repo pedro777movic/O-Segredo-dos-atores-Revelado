@@ -12,7 +12,7 @@ const mockups = [
     'data-ai-hint': 'ebook page',
   },
   {
-    src: 'https://images.unsplash.com/photo-1664904527318-773ba829c7d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxlYm9vayUyMHRhYmxldHxlbnwwfHx8fDE3NTcyOTk1MzN8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    src: 'https://i.imgur.com/XZau72M.png',
     alt: 'Ebook em um tablet',
     'data-ai-hint': 'ebook tablet',
   },
