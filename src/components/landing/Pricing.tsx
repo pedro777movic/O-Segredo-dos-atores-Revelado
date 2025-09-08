@@ -6,7 +6,8 @@ const plans = [
   {
     title: 'BÁSICO',
     subtitle: 'SOLO MÓDULOS BÁSICOS',
-    price: '3,90',
+    price: '27,00',
+    currency: 'R$',
     features: [
       'O Segredo Nº1 dos Atores Pornô.',
       'Material através da área de membros.',
@@ -21,8 +22,9 @@ const plans = [
   {
     title: 'COMBO COMPLETO',
     subtitle: 'TODA LA COLECCIÓN + BONO',
-    price: '7,90',
-    originalPrice: '59,90',
+    price: '47,00',
+    currency: 'R$',
+    originalPrice: '97,00',
     features: [
       'O Segredo Nº1 dos Atores Pornô.',
       'BÔNUS #01: Guia de Hábitos Saudáveis.',
@@ -72,11 +74,12 @@ export function Pricing() {
                 <div className="mb-8 text-center">
                   {plan.originalPrice && (
                     <p className="text-lg text-muted-foreground line-through">
-                      ${plan.originalPrice}
+                      {plan.currency}
+                      {plan.originalPrice}
                     </p>
                   )}
                   <p className="font-headline text-6xl font-extrabold">
-                    <span className="text-3xl font-normal">$</span>
+                    <span className="text-3xl font-normal">{plan.currency}</span>
                     {plan.price}
                   </p>
                 </div>
