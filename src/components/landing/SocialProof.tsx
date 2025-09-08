@@ -11,7 +11,7 @@ import { generateTestimonialLikeQuotes } from '@/ai/flows/generate-testimonial-l
 
 const baseTestimonials = [
   'Nunca mais falhei.',
-  'Minha parceira ficou impressionada.',
+  'Amoor, como vc ficou tão bom tão rápidoo? Quero muito mais, vamos se ver essa semana de novo pfvv preciso transar com vc',
   'Me sinto 10 anos mais jovem.',
 ];
 
