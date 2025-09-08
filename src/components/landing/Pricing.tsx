@@ -11,7 +11,7 @@ const plans = [
     originalPrice: '97,00',
     features: [
       'O Segredo Nº1 dos Atores Pornô.',
-      'BÔNUS #01: Guia de Hábitos Saudáveis.',
+      'Ejaculação precoce e hábitos de masturbação',
       'BÔNUS #02: Confiança Inabalável.',
       'BÔNUS #03: Comunicação Sedutora.',
       'BÔNUS #04: Dominando o Prazer.',
