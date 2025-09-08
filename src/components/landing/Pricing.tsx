@@ -24,7 +24,7 @@ const plans = [
     textColor: 'text-primary-foreground',
     borderColor: 'border-primary',
     primary: true,
-    badge: 'MAIS VENDIDO',
+    badge: 'Mais de 2.000 exemplares veendidos',
   },
 ];
 
