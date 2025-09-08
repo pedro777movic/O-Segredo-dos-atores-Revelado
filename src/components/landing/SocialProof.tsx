@@ -10,7 +10,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { generateTestimonialLikeQuotes } from '@/ai/flows/generate-testimonial-like-quotes';
 
 const baseTestimonials = [
-  'Nunca mais falhei.',
+  'Foi o santo remédio. Fui de uns 5 min para mais de 1 hora fácil, e só paro agora quando a gata goza 😈',
   'Amoor, como vc ficou tão bom tão rápidoo? Quero muito mais, vamos se ver essa semana de novo pfvv preciso transar com vc',
   'Me sinto 10 anos mais jovem.',
 ];
