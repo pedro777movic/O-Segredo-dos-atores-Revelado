@@ -4,22 +4,6 @@ import { Check } from 'lucide-react';
 
 const plans = [
   {
-    title: 'BÁSICO',
-    subtitle: 'SOLO MÓDULOS BÁSICOS',
-    price: '27,00',
-    currency: 'R$',
-    features: [
-      'O Segredo Nº1 dos Atores Pornô.',
-      'Material através da área de membros.',
-      'Acesso por 12 meses.',
-    ],
-    buttonText: 'Quero Somente o Básico',
-    bgColor: 'bg-card',
-    textColor: 'text-card-foreground',
-    borderColor: 'border-border',
-    primary: false,
-  },
-  {
     title: 'COMBO COMPLETO',
     subtitle: 'TODA LA COLECCIÓN + BONO',
     price: '47,00',
@@ -50,11 +34,11 @@ export function Pricing() {
       <h2 className="mb-10 text-center font-headline text-3xl font-bold md:text-4xl">
         Escolha a Melhor Opção Para Você
       </h2>
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+      <div className="flex justify-center">
         {plans.map((plan, index) => (
           <Card
             key={index}
-            className={`relative flex flex-col rounded-2xl shadow-lg ${plan.borderColor} ${plan.primary ? 'border-2' : ''}`}
+            className={`relative flex w-full max-w-md flex-col rounded-2xl shadow-lg ${plan.borderColor} ${plan.primary ? 'border-2' : ''}`}
           >
             {plan.primary && (
               <div className="absolute -top-4 right-4 rotate-12 transform rounded-full bg-yellow-400 px-3 py-1 text-sm font-bold text-black">
