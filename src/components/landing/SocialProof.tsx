@@ -20,7 +20,7 @@ const userNames = ['Carlos M.', 'Ricardo S. + Júlia A.', 'Paulo G.'];
 const userAvatars = [
   `https://picsum.photos/seed/men0/100/100`,
   'https://i.imgur.com/Yt2Thye.jpeg',
-  `https://picsum.photos/seed/men2/100/100`,
+  'https://i.imgur.com/pkk2v8v.jpeg',
 ]
 
 export async function SocialProof() {
