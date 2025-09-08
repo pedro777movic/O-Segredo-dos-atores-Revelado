@@ -5,7 +5,7 @@ import { Check } from 'lucide-react';
 const plans = [
   {
     title: 'COMBO COMPLETO',
-    subtitle: 'Visualize parte da coleção',
+    subtitle: 'Visualize parte da coleção abaixo',
     price: '47,00',
     currency: 'R$',
     originalPrice: '97,00',
