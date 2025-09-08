@@ -15,7 +15,7 @@ const baseTestimonials = [
   'Me sinto 10 anos mais jovem.',
 ];
 
-const userNames = ['Carlos M.', 'Ricardo S.', 'Paulo G.'];
+const userNames = ['Carlos M.', 'Ricardo S. + Júlia A.', 'Paulo G.'];
 
 export async function SocialProof() {
   let quotes: string[] = [];
