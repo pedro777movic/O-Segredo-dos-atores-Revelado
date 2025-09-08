@@ -28,7 +28,7 @@ export default function Home() {
               className="w-full max-w-md animate-pulse rounded-full text-lg font-bold shadow-lg shadow-primary/30"
               asChild
             >
-              <a href="#pricing">Descobrir o Ebook Agora</a>
+              <a href="#pricing">Descobrir o Segredo Agora!</a>
             </Button>
             <p className="text-sm font-semibold text-primary">
               Não ficará disponível por muito tempo
