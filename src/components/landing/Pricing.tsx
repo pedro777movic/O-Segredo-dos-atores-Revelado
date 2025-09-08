@@ -32,7 +32,7 @@ export function Pricing() {
   return (
     <section id="pricing" className="py-12">
       <h2 className="mb-10 text-center font-headline text-3xl font-bold md:text-4xl">
-        Escolha a Melhor Opção Para Você
+        O que você vai receber
       </h2>
       <div className="flex justify-center">
         {plans.map((plan, index) => (
