@@ -10,7 +10,7 @@ type Props = {
 const OFFER_DURATION_SECONDS = 3600; // 1 hour
 
 export function DynamicScarcity({ productName }: Props) {
-  const [message, setMessage] = useState('Oferta por tempo limitado!');
+  const [message, setMessage] = useState('Não ficará disponível por muito tempo');
   const [timeLeft, setTimeLeft] = useState(OFFER_DURATION_SECONDS);
 
   useEffect(() => {

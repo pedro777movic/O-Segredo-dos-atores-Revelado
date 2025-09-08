@@ -29,7 +29,9 @@ export default function Home() {
             >
               <a href="#final-cta">Descobrir o Ebook Agora</a>
             </Button>
-            <DynamicScarcity productName="O Segredo Nº1" />
+            <p className="text-sm font-semibold text-primary">
+              Não ficará disponível por muito tempo
+            </p>
           </section>
           <Separator className="my-8" />
           <Benefits />
