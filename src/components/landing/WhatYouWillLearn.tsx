@@ -4,7 +4,7 @@ const learningPoints = [
   {
     title: 'Controle Total',
     description:
-      "Mantenha a excitação intensa, evite a monotonia, estimula diferentes zonas erógenas e aumente o prazer de ambos. Além disso, mostre domínio, criatividade e resistência, transmitindo mais poder e confiança na performance.",
+      'Domine as técnicas de controle ejaculatório que os atores usam para prolongar o prazer e decidir o momento exato do clímax. Surpreenda com sua resistência.',
     image: {
       src: 'https://i.imgur.com/LCoflI0.png',
       alt: 'Capa do Ebook com fundo preto e dourado',
@@ -14,7 +14,7 @@ const learningPoints = [
   {
     title: 'Controle Total',
     description:
-      'Domine as técnicas de controle ejaculatório que os atores usam para prolongar o prazer e decidir o momento exato do clímax. Surpreenda com sua resistência.',
+      'Mantenha a excitação intensa, evite a monotonia, estimula diferentes zonas erógenas e aumente o prazer de ambos. Além disso, mostre domínio, criatividade e resistência, transmitindo mais poder e confiança na performance.',
     image: {
       src: 'https://i.imgur.com/HqQU4Oe.png',
       alt: 'Homem em controle',
