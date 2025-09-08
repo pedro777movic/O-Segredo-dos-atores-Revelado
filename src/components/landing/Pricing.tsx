@@ -14,7 +14,7 @@ const plans = [
       'Ejaculação precoce e hábitos de masturbação',
       'Ansiedade na performance',
       'Postura errada e músculos pélvicos fracos',
-      'BÔNUS #04: Dominando a sexualidade masculina e Técnicas dos mestres',
+      'Dominando a sexualidade masculina e Técnicas dos mestres',
       'Mente capacitada e Poderes da Respiração',
       'Controle do corpo e Corpo Potente',
       'Controle da parceira e Super Habilidades Sexuais',
