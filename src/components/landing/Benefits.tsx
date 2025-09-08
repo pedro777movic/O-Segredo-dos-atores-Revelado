@@ -14,7 +14,7 @@ const benefits = [
   },
   {
     icon: Leaf,
-    text: 'Natural e prático.',
+    text: 'NATURAL E PRÁTICO. Obtenha controle total do seu corpo e da sua parceira.',
   },
   {
     icon: Ban,
