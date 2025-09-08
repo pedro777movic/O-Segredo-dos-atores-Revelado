@@ -6,7 +6,7 @@ const learningPoints = [
     description:
       'Domine as técnicas de controle ejaculatório que os atores usam para prolongar o prazer e decidir o momento exato do clímax. Surpreenda com sua resistência.',
     image: {
-      src: 'https://i.imgur.com/HqQU4Oe.png',
+      src: 'https://i.imgur.com/LCoflI0.png',
       alt: 'Capa do Ebook com fundo preto e dourado',
       'data-ai-hint': 'ebook cover',
     },
