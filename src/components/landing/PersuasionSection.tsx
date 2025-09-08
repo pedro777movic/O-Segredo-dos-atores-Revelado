@@ -13,9 +13,7 @@ export function PersuasionSection() {
           Para nunca mais se sentir inseguro na hora H. E virar referência na cama!
         </p>
         <p className="text-xl text-muted-foreground md:text-2xl">
-          E surpreender qualquer parceira com um nível de entrega e resistência
-          que será <span className="font-bold text-foreground">difícil</span>{' '}
-          ela esquecer.
+          Surpreenda qualquer parceira com um nível de entrega e resistência que será difícil para ela esquecer.
         </p>
       </div>
     </section>
