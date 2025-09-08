@@ -51,8 +51,7 @@ const prompt = ai.definePrompt({
   - "{{{this}}}"
   {{/each}}
 
-  Generate {{numberOfQuotes}} new testimonial-like quotes that sound like they could have come from real users.  Make them concise and focus on the benefits of the underlying product.  The product helps men improve their sexual performance and confidence.
-  Format the output as a JSON object containing a "quotes" field that contains an array of strings.
+  Generate {{numberOfQuotes}} new testimonial-like quotes that sound like they could have come from real users. Make them concise and focus on the benefits of the underlying product. The product helps men improve their sexual performance and confidence.
   Make sure the quotes are diverse and reflect different aspects of the product's value.
   `,
 });
