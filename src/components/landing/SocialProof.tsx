@@ -17,6 +17,12 @@ const baseTestimonials = [
 
 const userNames = ['Carlos M.', 'Ricardo S. + Júlia A.', 'Paulo G.'];
 
+const userAvatars = [
+  `https://picsum.photos/seed/men0/100/100`,
+  'https://i.imgur.com/Yt2Thye.jpeg',
+  `https://picsum.photos/seed/men2/100/100`,
+]
+
 export async function SocialProof() {
   let quotes: string[] = [];
   try {
@@ -29,6 +35,14 @@ export async function SocialProof() {
     console.error('Failed to generate testimonials, using fallback.', error);
     quotes = baseTestimonials;
   }
+
+  const avatars = [...userAvatars];
+  if (quotes.length > baseTestimonials.length) {
+    for (let i = baseTestimonials.length; i < quotes.length; i++) {
+      avatars.push(`https://picsum.photos/seed/men${i}/100/100`);
+    }
+  }
+
 
   return (
     <section id="social-proof" className="py-12">
@@ -58,7 +72,7 @@ export async function SocialProof() {
                   <CardContent className="flex flex-col items-center justify-center gap-4 p-6 text-center">
                     <Avatar className="h-20 w-20">
                       <AvatarImage
-                        src={`https://picsum.photos/seed/men${index}/100/100`}
+                        src={avatars[index % avatars.length]}
                         alt={`Homem ${index + 1}`}
                         data-ai-hint="man portrait"
                       />
