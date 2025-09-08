@@ -16,7 +16,7 @@ const plans = [
       'Postura errada e músculos pélvicos fracos',
       'BÔNUS #04: Dominando a sexualidade masculina e Técnicas dos mestres',
       'Mente capacitada e Poderes da Respiração',
-      'BÔNUS #06: Mente Sã, Corpo Potente.',
+      'Controle do corpo e Corpo Potente',
       'BÔNUS #07: Guia de Suplementos Naturais.',
     ],
     buttonText: 'Quero o Combo Completo',
