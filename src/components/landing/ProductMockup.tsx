@@ -2,17 +2,17 @@ import Image from 'next/image';
 
 const mockups = [
   {
-    src: 'https://picsum.photos/seed/ebook1/600/800',
+    src: 'https://images.unsplash.com/photo-1555117389-402de1d1470b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxlYm9vayUyMGNvdmVyfGVufDB8fHx8MTc1NzI5OTUzMnww&ixlib=rb-4.1.0&q=80&w=1080',
     alt: 'Capa do Ebook',
     'data-ai-hint': 'ebook cover',
   },
   {
-    src: 'https://picsum.photos/seed/ebook2/600/800',
+    src: 'https://images.unsplash.com/photo-1662947851950-2a8090a016d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxlYm9vayUyMHBhZ2V8ZW58MHx8fHwxNzU3Mjk5NTMyfDA&ixlib=rb-4.1.0&q=80&w=1080',
     alt: 'Página interna do Ebook',
     'data-ai-hint': 'ebook page',
   },
   {
-    src: 'https://picsum.photos/seed/ebook3/600/800',
+    src: 'https://images.unsplash.com/photo-1664904527318-773ba829c7d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxlYm9vayUyMHRhYmxldHxlbnwwfHx8fDE3NTcyOTk1MzN8MA&ixlib=rb-4.1.0&q=80&w=1080',
     alt: 'Ebook em um tablet',
     'data-ai-hint': 'ebook tablet',
   },
