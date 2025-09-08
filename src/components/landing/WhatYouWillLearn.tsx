@@ -16,7 +16,7 @@ const learningPoints = [
     description:
       'Domine as técnicas de controle ejaculatório que os atores usam para prolongar o prazer e decidir o momento exato do clímax. Surpreenda com sua resistência.',
     image: {
-      src: 'https://picsum.photos/seed/control/600/800',
+      src: 'https://i.imgur.com/HqQU4Oe.png',
       alt: 'Homem em controle',
       'data-ai-hint': 'man control',
     },
