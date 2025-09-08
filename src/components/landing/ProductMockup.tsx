@@ -7,7 +7,7 @@ const mockups = [
     'data-ai-hint': 'ebook cover',
   },
   {
-    src: 'https://images.unsplash.com/photo-1662947851950-2a8090a016d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxlYm9vayUyMHBhZ2V8ZW58MHx8fHwxNzU3Mjk5NTMyfDA&ixlib=rb-4.1.0&q=80&w=1080',
+    src: 'https://i.imgur.com/mSeXwTb.png',
     alt: 'Página interna do Ebook',
     'data-ai-hint': 'ebook page',
   },
