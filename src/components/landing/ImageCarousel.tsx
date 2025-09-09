@@ -17,7 +17,7 @@ const slides = [
     'data-ai-hint': 'confident man',
   },
   {
-    src: 'https://picsum.photos/1200/800',
+    src: 'https://i.imgur.com/HoULabq.jpeg',
     alt: 'Sombra de um homem musculoso',
     text: 'Maior Potência',
     'data-ai-hint': 'strong man',
