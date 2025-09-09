@@ -11,6 +11,7 @@ import { Separator } from '@/components/ui/separator';
 import { Pricing } from '@/components/landing/Pricing';
 import { Footer } from '@/components/landing/Footer';
 import { WhatYouWillLearn } from '@/components/landing/WhatYouWillLearn';
+import { DynamicScarcity } from '@/components/landing/DynamicScarcity';
 
 export default function Home() {
   return (
@@ -30,9 +31,7 @@ export default function Home() {
             >
               <a href="#pricing">Descobrir o Segredo Agora!</a>
             </Button>
-            <p className="text-sm font-semibold text-primary">
-              Não ficará disponível por muito tempo
-            </p>
+            <DynamicScarcity productName="O Segredo Nº1 dos Atores Pornô" />
           </section>
           <Separator className="my-8" />
           <Benefits />
@@ -57,9 +56,7 @@ export default function Home() {
             >
               <a href="#pricing">Descobrir Segredo!</a>
             </Button>
-            <p className="text-sm font-semibold text-primary">
-              Não ficará disponível por muito tempo
-            </p>
+             <DynamicScarcity productName="O Segredo Nº1 dos Atores Pornô" />
           </section>
           <Separator className="my-8" />
           <SocialProof />
