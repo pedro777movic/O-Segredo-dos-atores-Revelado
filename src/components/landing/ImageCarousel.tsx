@@ -11,7 +11,7 @@ import {
 
 const slides = [
   {
-    src: 'https://picsum.photos/1200/800?grayscale',
+    src: 'https://i.imgur.com/eDP5AAF.jpeg',
     alt: 'Homem confiante',
     text: 'Confiança Masculina',
     'data-ai-hint': 'confident man',
