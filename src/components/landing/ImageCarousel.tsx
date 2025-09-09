@@ -23,7 +23,7 @@ const slides = [
     'data-ai-hint': 'strong man',
   },
   {
-    src: 'https://picsum.photos/1200/800?blur=1',
+    src: 'https://i.imgur.com/B6vWVoa.jpeg',
     alt: 'Casal em momento íntimo',
     text: 'Resistência Sexual',
     'data-ai-hint': 'intimate couple',
