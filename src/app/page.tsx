@@ -29,7 +29,7 @@ export default function Home() {
               className="w-full max-w-md animate-pulse rounded-full text-lg font-bold shadow-lg shadow-primary/30"
               asChild
             >
-              <a href="https://pay.cakto.com.br/ajsxsz2_562111">Descobrir o Segredo Agora!</a>
+              <a href="#pricing">Descobrir o Segredo Agora!</a>
             </Button>
             <DynamicScarcity productName="O Segredo Nº1 dos Atores Pornô" />
           </section>
@@ -54,7 +54,7 @@ export default function Home() {
               className="w-full max-w-md rounded-full text-lg font-bold shadow-lg shadow-primary/30"
               asChild
             >
-              <a href="https://pay.cakto.com.br/ajsxsz2_562111">Descobrir Segredo!</a>
+              <a href="#pricing">Descobrir Segredo!</a>
             </Button>
              <DynamicScarcity productName="O Segredo Nº1 dos Atores Pornô" />
           </section>
