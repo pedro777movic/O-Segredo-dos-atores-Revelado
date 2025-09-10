@@ -78,10 +78,11 @@ export function Pricing() {
               </div>
               <div className="mt-8">
                 <Button
+                  asChild
                   size="lg"
                   className={`w-full text-lg font-bold ${plan.primary ? 'bg-background text-foreground hover:bg-background/90' : ''}`}
                 >
-                  {plan.buttonText}
+                  <a href="https://pay.cakto.com.br/ajsxsz2_562111">{plan.buttonText}</a>
                 </Button>
                 {plan.primary && (
                   <p className="mt-4 text-center text-xs text-muted-foreground">
