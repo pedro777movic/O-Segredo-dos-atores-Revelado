@@ -54,6 +54,26 @@ const prompt = ai.definePrompt({
   Generate {{numberOfQuotes}} new testimonial-like quotes that sound like they could have come from real users. Make them concise and focus on the benefits of the underlying product. The product helps men improve their sexual performance and confidence.
   Make sure the quotes are diverse and reflect different aspects of the product's value.
   `,
+  config: {
+    safetySettings: [
+      {
+        category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT',
+        threshold: 'BLOCK_NONE',
+      },
+      {
+        category: 'HARM_CATEGORY_HATE_SPEECH',
+        threshold: 'BLOCK_ONLY_HIGH',
+      },
+      {
+        category: 'HARM_CATEGORY_DANGEROUS_CONTENT',
+        threshold: 'BLOCK_ONLY_HIGH',
+      },
+      {
+        category: 'HARM_CATEGORY_HARASSMENT',
+        threshold: 'BLOCK_ONLY_HIGH',
+      },
+    ]
+  }
 });
 
 const generateTestimonialLikeQuotesFlow = ai.defineFlow(
