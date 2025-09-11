@@ -26,7 +26,7 @@ const learningPoints = [
     description:
       'Descubra os segredos para ereções mais fortes e duradouras, sem depender de medicamentos. Métodos naturais que otimizam a circulação e a saúde sexual.',
     image: {
-      src: 'https://i.imgur.com/5E5awoG.png',
+      src: 'https://i.imgur.com/CJhfPsK.jpeg',
       alt: 'Homem potente',
       'data-ai-hint': 'powerful man',
     },
