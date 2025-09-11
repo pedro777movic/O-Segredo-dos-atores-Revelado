@@ -10,7 +10,7 @@ const plans = [
     currency: 'R$',
     originalPrice: '97,00',
     features: [
-      'O Segredo Nº1 dos Atores Pornô.',
+      'O SEGREDO Nº1 DOS ATORES PORNÔS',
       'Ejaculação precoce e hábitos de masturbação',
       'Ansiedade na performance',
       'Postura errada e músculos pélvicos fracos',
