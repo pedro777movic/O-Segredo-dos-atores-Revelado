@@ -24,24 +24,8 @@ const userAvatars = [
 ]
 
 export async function SocialProof() {
-  let quotes: string[] = [];
-  try {
-    const result = await generateTestimonialLikeQuotes({
-      baseTestimonials,
-      numberOfQuotes: 3,
-    });
-    quotes = [...baseTestimonials, ...result.quotes];
-  } catch (error) {
-    console.error('Failed to generate testimonials, using fallback.', error);
-    quotes = baseTestimonials;
-  }
-
-  const avatars = [...userAvatars];
-  if (quotes.length > baseTestimonials.length) {
-    for (let i = baseTestimonials.length; i < quotes.length; i++) {
-      avatars.push(`https://picsum.photos/seed/men${i}/100/100`);
-    }
-  }
+  const quotes = baseTestimonials;
+  const avatars = userAvatars;
 
 
   return (
