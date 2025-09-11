@@ -11,7 +11,7 @@ import { generateTestimonialLikeQuotes } from '@/ai/flows/generate-testimonial-l
 
 const baseTestimonials = [
   'Foi o santo remédio. Fui de uns 5 min para mais de 1 hora fácil, e só paro agora quando a gata goza 😈',
-  'Amoor, como vc ficou tão bom tão rápidoo? Quero muito mais, vamos se ver essa semana de novo pfvv preciso transar com vc',
+  'Amoor, como você ficou tão bom tão rápido? Quero muito mais, vamos nos ver amanhã de novo, por favor, preciso transar com você!!',
   'Valeu muito a pena! Elas ficam loucas, tem garota implorando pra transar comigo, querem gozar toda hora. Meu corpo e minha mente ficaram em outro nível. Obrigado',
 ];
 
