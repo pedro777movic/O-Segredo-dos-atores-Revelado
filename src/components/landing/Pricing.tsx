@@ -11,7 +11,7 @@ const plans = [
     originalPrice: '97,00',
     features: [
       'O SEGREDO Nº1 DOS ATORES PORNÔS',
-      'Ejaculação precoce e hábitos de masturbação',
+      'Resolvendo ejaculação precoce e hábitos de masturbação',
       'Ansiedade na performance',
       'Postura errada e músculos pélvicos fracos',
       'Dominando a sexualidade masculina e Técnicas dos mestres',
