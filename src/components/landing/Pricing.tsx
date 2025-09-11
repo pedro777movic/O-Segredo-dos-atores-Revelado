@@ -17,7 +17,7 @@ const plans = [
       'Dominando a sexualidade masculina e as técnicas dos mestres pornôs',
       'Uma mente capacitada e o poder da respiração da forma correta',
       'Mantendo total controle do corpo e do corpo da parceira',
-      'Controle da parceira e Super Habilidades Sexuais',
+      'Obtendo máxima potência e explorando habilidades sexuais',
     ],
     buttonText: 'Quero o Combo Completo',
     bgColor: 'bg-primary',
