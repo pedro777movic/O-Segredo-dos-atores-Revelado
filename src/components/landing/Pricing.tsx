@@ -12,7 +12,7 @@ const plans = [
     features: [
       'O SEGREDO Nº1 DOS ATORES PORNÔS',
       'Resolvendo ejaculação precoce e hábitos de masturbação',
-      'Ansiedade na performance',
+      'Resolvendo ansiedade na performance sexual',
       'Postura errada e músculos pélvicos fracos',
       'Dominando a sexualidade masculina e Técnicas dos mestres',
       'Mente capacitada e Poderes da Respiração',
