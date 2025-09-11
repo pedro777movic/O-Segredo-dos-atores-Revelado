@@ -51,7 +51,7 @@ export async function SocialProof() {
           O Que Eles Estão Dizendo
         </h2>
         <p className="mb-10 text-lg text-muted-foreground">
-          Relatos das parceiras de alguns dos homens que compraram.
+          São centenas de relatos dos homens e das suas parceiras
         </p>
       </div>
       <Carousel
