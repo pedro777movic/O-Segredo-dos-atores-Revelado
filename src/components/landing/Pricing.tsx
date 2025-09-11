@@ -13,7 +13,7 @@ const plans = [
       'O SEGREDO Nº1 DOS ATORES PORNÔS',
       'Resolvendo ejaculação precoce e hábitos de masturbação',
       'Resolvendo ansiedade na performance sexual',
-      'Postura errada e músculos pélvicos fracos',
+      'Resolvendo a postura errada e os músculos pélvicos fracos',
       'Dominando a sexualidade masculina e Técnicas dos mestres',
       'Mente capacitada e Poderes da Respiração',
       'Controle do corpo e Corpo Potente',
