@@ -16,7 +16,7 @@ const plans = [
       'Resolvendo a postura errada e os músculos pélvicos fracos',
       'Dominando a sexualidade masculina e as técnicas dos mestres pornôs',
       'Uma mente capacitada e o poder da respiração da forma correta',
-      'Controle do corpo e Corpo Potente',
+      'Mantendo total controle do corpo e do corpo da parceira',
       'Controle da parceira e Super Habilidades Sexuais',
     ],
     buttonText: 'Quero o Combo Completo',
