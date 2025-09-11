@@ -15,7 +15,7 @@ const plans = [
       'Resolvendo ansiedade na performance sexual',
       'Resolvendo a postura errada e os músculos pélvicos fracos',
       'Dominando a sexualidade masculina e as técnicas dos mestres pornôs',
-      'Mente capacitada e Poderes da Respiração',
+      'Uma mente capacitada e o poder da respiração da forma correta',
       'Controle do corpo e Corpo Potente',
       'Controle da parceira e Super Habilidades Sexuais',
     ],
