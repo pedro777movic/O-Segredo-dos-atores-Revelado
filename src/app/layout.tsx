@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'PotentPeak',
@@ -26,6 +27,19 @@ export default function RootLayout({
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&family=PT+Sans:wght@400;700&display=swap"
           rel="stylesheet"
+        />
+        <script
+          id="utmify-pixel"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.pixelId = "68c368e4e5f6678bb60fc74e";
+              var a = document.createElement("script");
+              a.setAttribute("async", "");
+              a.setAttribute("defer", "");
+              a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+              document.head.appendChild(a);
+            `,
+          }}
         />
       </head>
       <body
