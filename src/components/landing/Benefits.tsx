@@ -22,7 +22,7 @@ const benefits = [
   },
   {
     icon: BrainCircuit,
-    text: 'Focado em segurança mental + performance física.',
+    text: 'Adquira confiança: transmitindo segurança e presença. Atenção: percebendo sinais, ritmos e preferências dela. Controle: tendo domínio sobre seu próprio desempenho, sabendo conduzir a situação sem pressa.',
   },
   {
     icon: BookMarked,
