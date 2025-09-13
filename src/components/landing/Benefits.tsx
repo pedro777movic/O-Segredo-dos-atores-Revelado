@@ -22,7 +22,7 @@ const benefits = [
   },
   {
     icon: BrainCircuit,
-    text: 'Aprenda a trabalhar principalmente a confiança, o domínio corporal, uma resistência de ferro, consciência corporal, o controle da mente, a empatia sexual e a liberação da energia masculina.',
+    text: 'Aprenda a trabalhar principalmente confiança, domínio corporal, resistência de ferro, consciência corporal e controle da mental.',
   },
   {
     icon: BookMarked,
