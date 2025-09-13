@@ -12,6 +12,7 @@ import { Pricing } from '@/components/landing/Pricing';
 import { Footer } from '@/components/landing/Footer';
 import { WhatYouWillLearn } from '@/components/landing/WhatYouWillLearn';
 import { DynamicScarcity } from '@/components/landing/DynamicScarcity';
+import { VSL } from '@/components/landing/VSL';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <main className="flex-1">
         <Header />
         <div className="container mx-auto max-w-5xl px-4">
+          <VSL />
           <ImageCarousel />
           <div className="my-8 text-center">
             <p className="text-xl text-foreground md:text-2xl">
