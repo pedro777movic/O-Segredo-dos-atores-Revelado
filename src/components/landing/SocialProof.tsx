@@ -34,7 +34,7 @@ const testimonials = [
     quote:
       'Minha esposa está mais feliz do que nunca. Nossa vida sexual mudou completamente, parece que voltamos ao início do namoro!',
     name: 'Fernando L.',
-    avatar: 'https://i.imgur.com/n1K492D.jpeg',
+    avatar: 'https://images.unsplash.com/photo-1508341591423-4347099e1f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxob21lbXxlbnwwfHx8fDE3NTc3MzE2MzV8MA&ixlib=rb-4.1.0&q=80&w=1080',
     'data-ai-hint': 'man selfie'
   },
   {
