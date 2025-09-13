@@ -41,7 +41,7 @@ const testimonials = [
     quote:
       'Eu não tinha confiança nenhuma, mas depois de aplicar as técnicas, me sinto outro homem. É incrível o poder que a gente tem e não sabe.',
     name: 'Lucas T.',
-    avatar: 'https://picsum.photos/seed/couple2/100/100',
+    avatar: 'https://images.unsplash.com/photo-1654514457969-8bbb5cdf9468?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnYXJvdG98ZW58MHx8fHwxNzU3NzMxNzE4fDA&ixlib=rb-4.1.0&q=80&w=1080',
     'data-ai-hint': 'confident couple'
   },
 ];
