@@ -26,7 +26,7 @@ const benefits = [
   },
   {
     icon: BookMarked,
-    text: 'Em formato digital, com acesso imediato.',
+    text: 'Em formato digital, simplificado e direto! Com acesso imediato.',
   },
   {
     icon: ShieldCheck,
