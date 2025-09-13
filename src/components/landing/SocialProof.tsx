@@ -15,18 +15,33 @@ const baseTestimonials = [
   'Valeu muito a pena! Elas ficam loucas, tem garota implorando pra transar comigo, querem gozar toda hora. Meu corpo e minha mente ficaram em outro nível. Obrigado',
 ];
 
-const userNames = ['Carlos M.', 'Ricardo S. + Júlia A.', 'Paulo G.'];
+const userNames = ['Carlos M.', 'Ricardo S. + Júlia A.', 'Paulo G.', 'Fernando L.', 'Ana P.'];
 
 const userAvatars = [
   `https://picsum.photos/seed/men0/100/100`,
   'https://i.imgur.com/Yt2Thye.jpeg',
   'https://i.imgur.com/8RODqEe.jpeg',
+  `https://picsum.photos/seed/couple1/100/100`,
+  `https://picsum.photos/seed/couple2/100/100`,
 ]
 
 export async function SocialProof() {
-  const quotes = baseTestimonials;
-  const avatars = userAvatars;
+  let quotes = baseTestimonials;
+  try {
+    const result = await generateTestimonialLikeQuotes({
+      baseTestimonials,
+      numberOfQuotes: 5,
+    });
+    if (result.quotes && result.quotes.length > 0) {
+      quotes = result.quotes;
+    }
+  } catch (error) {
+    console.error('Failed to generate testimonials, using base testimonials.', error);
+    // On error, we just use the base testimonials
+    quotes = baseTestimonials; 
+  }
 
+  const avatars = userAvatars;
 
   return (
     <section id="social-proof" className="py-12">
@@ -53,11 +68,11 @@ export async function SocialProof() {
             >
               <div className="p-1">
                 <Card className="h-full bg-secondary/30">
-                  <CardContent className="flex flex-col items-center justify-center gap-4 p-6 text-center">
+                  <CardContent className="flex h-full flex-col items-center justify-center gap-4 p-6 text-center">
                     <Avatar className="h-20 w-20">
                       <AvatarImage
                         src={avatars[index % avatars.length]}
-                        alt={`Homem ${index + 1}`}
+                        alt={`Depoimento de ${userNames[index % userNames.length]}`}
                         data-ai-hint="man portrait"
                       />
                       <AvatarFallback>
@@ -67,7 +82,7 @@ export async function SocialProof() {
                           .join('')}
                       </AvatarFallback>
                     </Avatar>
-                    <blockquote className="text-lg font-medium text-foreground">
+                    <blockquote className="flex-grow text-lg font-medium text-foreground">
                       &ldquo;{quote}&rdquo;
                     </blockquote>
                     <p className="font-bold text-primary">
