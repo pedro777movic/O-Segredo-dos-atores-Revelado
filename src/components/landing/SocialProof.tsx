@@ -7,42 +7,47 @@ import {
 } from '@/components/ui/carousel';
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { generateTestimonialLikeQuotes } from '@/ai/flows/generate-testimonial-like-quotes';
 
-const baseTestimonials = [
-  'Foi o santo remédio. Fui de uns 5 min para mais de 1 hora fácil, e só paro agora quando a gata goza 😈',
-  'Amoor, como você ficou tão bom tão rápido? Quero muito mais, vamos nos ver amanhã de novo, por favor, preciso transar com você!!',
-  'Valeu muito a pena! Elas ficam loucas, tem garota implorando pra transar comigo, querem gozar toda hora. Meu corpo e minha mente ficaram em outro nível. Obrigado',
+const testimonials = [
+  {
+    quote:
+      'Foi o santo remédio. Fui de uns 5 min para mais de 1 hora fácil, e só paro agora quando a gata goza 😈',
+    name: 'Carlos M.',
+    avatar: 'https://picsum.photos/seed/men0/100/100',
+    'data-ai-hint': 'man portrait'
+  },
+  {
+    quote:
+      'Amoor, como você ficou tão bom tão rápido? Quero muito mais, vamos nos ver amanhã de novo, por favor, preciso transar com você!!',
+    name: 'Ricardo S. + Júlia A.',
+    avatar: 'https://i.imgur.com/Yt2Thye.jpeg',
+    'data-ai-hint': 'happy couple'
+  },
+  {
+    quote:
+      'Valeu muito a pena! Elas ficam loucas, tem garota implorando pra transar comigo, querem gozar toda hora. Meu corpo e minha mente ficaram em outro nível. Obrigado',
+    name: 'Paulo G.',
+    avatar: 'https://i.imgur.com/8RODqEe.jpeg',
+    'data-ai-hint': 'man smiling'
+  },
+  {
+    quote:
+      'Minha esposa está mais feliz do que nunca. Nossa vida sexual mudou completamente, parece que voltamos ao início do namoro!',
+    name: 'Fernando L.',
+    avatar: 'https://picsum.photos/seed/couple1/100/100',
+    'data-ai-hint': 'smiling couple'
+  },
+  {
+    quote:
+      'Eu não tinha confiança nenhuma, mas depois de aplicar as técnicas, me sinto outro homem. É incrível o poder que a gente tem e não sabe.',
+    name: 'Lucas T.',
+    avatar: 'https://picsum.photos/seed/couple2/100/100',
+    'data-ai-hint': 'confident couple'
+  },
 ];
 
-const userNames = ['Carlos M.', 'Ricardo S. + Júlia A.', 'Paulo G.', 'Fernando L.', 'Ana P.'];
 
-const userAvatars = [
-  `https://picsum.photos/seed/men0/100/100`,
-  'https://i.imgur.com/Yt2Thye.jpeg',
-  'https://i.imgur.com/8RODqEe.jpeg',
-  `https://picsum.photos/seed/couple1/100/100`,
-  `https://picsum.photos/seed/couple2/100/100`,
-]
-
-export async function SocialProof() {
-  let quotes = baseTestimonials;
-  try {
-    const result = await generateTestimonialLikeQuotes({
-      baseTestimonials,
-      numberOfQuotes: 5,
-    });
-    if (result.quotes && result.quotes.length > 0) {
-      quotes = result.quotes;
-    }
-  } catch (error) {
-    console.error('Failed to generate testimonials, using base testimonials.', error);
-    // On error, we just use the base testimonials
-    quotes = baseTestimonials; 
-  }
-
-  const avatars = userAvatars;
-
+export function SocialProof() {
   return (
     <section id="social-proof" className="py-12">
       <div className="text-center">
@@ -61,7 +66,7 @@ export async function SocialProof() {
         className="mx-auto w-full max-w-4xl"
       >
         <CarouselContent>
-          {quotes.map((quote, index) => (
+          {testimonials.map((testimonial, index) => (
             <CarouselItem
               key={index}
               className="md:basis-1/2 lg:basis-1/3"
@@ -71,22 +76,22 @@ export async function SocialProof() {
                   <CardContent className="flex h-full flex-col items-center justify-center gap-4 p-6 text-center">
                     <Avatar className="h-20 w-20">
                       <AvatarImage
-                        src={avatars[index % avatars.length]}
-                        alt={`Depoimento de ${userNames[index % userNames.length]}`}
-                        data-ai-hint="man portrait"
+                        src={testimonial.avatar}
+                        alt={`Depoimento de ${testimonial.name}`}
+                        data-ai-hint={testimonial['data-ai-hint']}
                       />
                       <AvatarFallback>
-                        {userNames[index % userNames.length]
+                        {testimonial.name
                           ?.split(' ')
                           .map(n => n[0])
                           .join('')}
                       </AvatarFallback>
                     </Avatar>
                     <blockquote className="flex-grow text-lg font-medium text-foreground">
-                      &ldquo;{quote}&rdquo;
+                      &ldquo;{testimonial.quote}&rdquo;
                     </blockquote>
                     <p className="font-bold text-primary">
-                      {userNames[index % userNames.length]}
+                      {testimonial.name}
                     </p>
                   </CardContent>
                 </Card>
