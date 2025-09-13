@@ -18,7 +18,7 @@ const benefits = [
   },
   {
     icon: Ban,
-    text: 'Não depende de medicamentos, produtos ou acessórios.',
+    text: 'Focado em prazer sexual mais performance. Não deixe de desfrutar do prazer e garantir que a sua parceira tenha a melhor experiência sexual dela!',
   },
   {
     icon: BrainCircuit,
