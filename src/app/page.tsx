@@ -20,6 +20,14 @@ export default function Home() {
         <Header />
         <div className="container mx-auto max-w-5xl px-4">
           <ImageCarousel />
+          <p className="my-8 text-center text-lg text-muted-foreground">
+            São diversos segredos revelados num pequeno livro digital. Técnicas
+            que a indústria adulta não quer que saibam, e que são utilizados
+            pelos melhores atores para aumentar naturalmente potência,
+            resistência, retardação ejaculatória, obtendo controle total. Perca
+            a vergonha e o medo, e comece a desfrutar uma verdadeira relação
+            sexual!
+          </p>
           <section
             id="cta1"
             className="flex flex-col items-center gap-2 py-12 text-center"
