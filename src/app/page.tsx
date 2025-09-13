@@ -20,7 +20,7 @@ export default function Home() {
         <Header />
         <div className="container mx-auto max-w-5xl px-4">
           <ImageCarousel />
-          <p className="my-8 text-center text-xl text-foreground md:text-2xl">
+          <p className="my-8 text-justify text-xl text-foreground md:text-2xl">
             São diversos segredos revelados num pequeno livro digital. Técnicas
             que a indústria adulta não quer que saibam, e que são utilizados
             pelos melhores atores para aumentar naturalmente{' '}
