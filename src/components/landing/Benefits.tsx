@@ -22,7 +22,7 @@ const benefits = [
   },
   {
     icon: BrainCircuit,
-    text: 'Adquira confiança: transmitindo segurança e presença. Atenção: percebendo sinais, ritmos e preferências dela. Controle: tendo domínio sobre seu próprio desempenho, sabendo conduzir a situação sem pressa.',
+    text: 'Aprenda a trabalhar principalmente a confiança, o domínio corporal, uma resistência de ferro, consciência corporal, o controle da mente, a empatia sexual e a liberação da energia masculina.',
   },
   {
     icon: BookMarked,
