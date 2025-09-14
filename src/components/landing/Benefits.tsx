@@ -22,7 +22,7 @@ const benefits = [
   },
   {
     icon: BrainCircuit,
-    text: 'Aprenda a trabalhar principalmente confiança, domínio corporal, resistência de ferro, consciência corporal e controle mental.',
+    text: 'Aprenda a trabalhar principalmente confiança, domínio e consciência do corpo,uma resistência de ferro, e controle mental.',
   },
   {
     icon: BookMarked,
