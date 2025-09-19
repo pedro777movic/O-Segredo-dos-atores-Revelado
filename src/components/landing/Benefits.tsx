@@ -30,7 +30,7 @@ const benefits = [
   },
   {
     icon: ShieldCheck,
-    text: 'Seguro e discreto, para praticar rapidamente e obter máximos resultados.',
+    text: 'Seguro e discreto, cabe no seu bolso. Para acessar rapidamente quando quiser.',
   },
 ];
 
