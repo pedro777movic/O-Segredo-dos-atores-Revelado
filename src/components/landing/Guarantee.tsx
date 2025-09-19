@@ -10,7 +10,7 @@ export function Guarantee() {
         </h3>
         <p className="mt-2 text-lg text-muted-foreground md:text-xl">
           Se por qualquer motivo você não ficar satisfeito, devolvemos 100% do
-          seu investimento. O risco é todo nosso.
+          seu investimento.
         </p>
       </div>
     </section>
