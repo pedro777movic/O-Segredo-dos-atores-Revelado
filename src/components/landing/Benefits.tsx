@@ -22,7 +22,7 @@ const benefits = [
   },
   {
     icon: BrainCircuit,
-    text: 'Aprenda a trabalhar principalmente confiança, domínio e consciência do corpo,uma resistência de ferro, e controle mental.',
+    text: 'Desenvolver resistência física e mental para durar muito mais tempo na cama.',
   },
   {
     icon: BookMarked,
