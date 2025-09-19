@@ -26,7 +26,7 @@ const benefits = [
   },
   {
     icon: BookMarked,
-    text: 'Acesso imediato. Em formato de app-book. Basta acessar com seu login e senha e pronto.',
+    text: 'Acesso imediato, leitura rápida. Em formato de app-book. Basta acessar com seu login e senha e pronto.',
   },
   {
     icon: ShieldCheck,
