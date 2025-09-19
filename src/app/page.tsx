@@ -38,8 +38,7 @@ export default function Home() {
               .
             </p>
             <p className="mt-4 text-lg text-muted-foreground md:text-xl">
-              Perca a vergonha e o medo, e comece a desfrutar uma verdadeira
-              relação sexual!
+              Aprenda a desfrutar de uma verdadeira relação sexual!
             </p>
           </div>
           <section
