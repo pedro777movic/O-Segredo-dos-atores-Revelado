@@ -11,7 +11,7 @@ import {
 
 const slides = [
   {
-    src: 'https://i.imgur.com/eDP5AAF.jpeg',
+    src: 'https://i.imgur.com/wMmC5hx.jpeg',
     alt: 'Homem confiante',
     text: 'Controle total da sua performance',
     'data-ai-hint': 'confident man',
@@ -19,7 +19,7 @@ const slides = [
   {
     src: 'https://i.imgur.com/HoULabq.jpeg',
     alt: 'Sombra de um homem musculoso',
-    text: 'Maior Potência',
+    text: 'Experiência inesquecível para sua parceira',
     'data-ai-hint': 'strong man',
   },
   {
