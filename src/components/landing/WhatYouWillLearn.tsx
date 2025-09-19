@@ -16,7 +16,7 @@ const learningPoints = [
     description:
       'Mantenha a excitação intensa, evite a monotonia, estimula diferentes zonas erógenas e aumente o prazer de ambos. Além disso, mostre domínio, criatividade e resistência, transmitindo mais poder e confiança na performance.',
     image: {
-      src: 'https://i.imgur.com/GylriyC.jpeg',
+      src: 'https://i.imgur.com/bT7XP0L.jpeg',
       alt: 'Homem em controle',
       'data-ai-hint': 'man control',
     },
