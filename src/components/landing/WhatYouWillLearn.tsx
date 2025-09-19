@@ -12,7 +12,7 @@ const learningPoints = [
     },
   },
   {
-    title: 'Movimentação',
+    title: 'Posição e performance',
     description:
       'Se existe um segredo que diferencia os homens comuns dos mestres da performance sexual, ele está aqui. Não basta apenas “saber algumas posições”. O que faz a diferença é como você joga com elas, alternando ritmo, intensidade e conexão para transformar o sexo em uma experiência dinâmica e inesquecível.',
     image: {
