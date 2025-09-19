@@ -14,7 +14,7 @@ const learningPoints = [
   {
     title: 'Movimentação',
     description:
-      'Mantenha a excitação intensa, evite a monotonia, estimula diferentes zonas erógenas e aumente o prazer de ambos. Além disso, mostre domínio, criatividade e resistência, transmitindo mais poder e confiança na performance.',
+      'Se existe um segredo que diferencia os homens comuns dos mestres da performance sexual, ele está aqui. Não basta apenas “saber algumas posições”. O que faz a diferença é como você joga com elas, alternando ritmo, intensidade e conexão para transformar o sexo em uma experiência dinâmica e inesquecível.',
     image: {
       src: 'https://i.imgur.com/bT7XP0L.jpeg',
       alt: 'Homem em controle',
