@@ -4,7 +4,7 @@ const learningPoints = [
   {
     title: 'Controle Total',
     description:
-      'Domine as técnicas de controle ejaculatório que os atores usam para prolongar o prazer e decidir o momento exato do clímax. Surpreenda com sua resistência.',
+      'Descobrir como prolongar o prazer e decidir o momento certo para a ejaculação.',
     image: {
       src: 'https://i.imgur.com/wMmC5hx.jpeg',
       alt: 'Capa do Ebook com fundo preto e dourado',
