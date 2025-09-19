@@ -4,7 +4,7 @@ const learningPoints = [
   {
     title: 'Controle Total',
     description:
-      'Descobrir como prolongar o prazer e decidir o momento certo para a ejaculação.',
+      'Neste módulo, você vai descobrir que sedução não é um truque barato, mas sim uma energia real que desperta desejo e cria conexão profunda. Os atores da indústria adulta sabem: a performance não começa na cama, mas muito antes. A forma como você olha, fala, toca e conduz a situação já prepara o terreno para uma experiência explosiva.',
     image: {
       src: 'https://i.imgur.com/wMmC5hx.jpeg',
       alt: 'Capa do Ebook com fundo preto e dourado',
