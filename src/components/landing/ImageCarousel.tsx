@@ -19,7 +19,7 @@ const slides = [
   {
     src: 'https://i.imgur.com/HoULabq.jpeg',
     alt: 'Sombra de um homem musculoso',
-    text: 'Experiência inesquecível para sua parceira',
+    text: 'Prazer Inesquecível',
     'data-ai-hint': 'strong man',
   },
   {
