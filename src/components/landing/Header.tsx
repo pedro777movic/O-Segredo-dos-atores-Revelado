@@ -18,7 +18,7 @@ export function Header() {
           </span>
         </p>
         <p className="mt-2 font-headline text-2xl font-bold md:text-3xl">
-          O ápice da potência sexual masculina natural. Em formato de app digital.
+          O ápice da potência sexual masculina moderna. Em formato de app-book.
         </p>
         <p className="mx-auto mt-8 max-w-2xl text-lg text-muted-foreground md:text-xl">
           Você já se perguntou como os atores pornôs conseguem performances
