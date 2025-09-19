@@ -24,14 +24,18 @@ export default function Home() {
           <ImageCarousel />
           <div className="my-8 text-center">
             <p className="text-xl text-foreground md:text-2xl">
-              São diversos segredos revelados num pequeno livro digital. Técnicas
-              que a indústria adulta não quer que saibam, e que são utilizados
-              pelos melhores atores para aumentar naturalmente{' '}
+              Descubra os diversos segredos da alta performance sexual
+              utilizados pela indústria adulta mais moderna. Técnicas e métodos
+              que são utilizados pelos melhores atores pornôs para potencializar
+              naturalmente{' '}
               <span className="font-bold text-primary">
-                potência, resistência, retardação ejaculatória
+                resistência, fortalecimento, retardação ejaculatória
+              </span>{' '}
+              e obter{' '}
+              <span className="font-bold text-primary">
+                controle total do próprio corpo
               </span>
-              , obtendo{' '}
-              <span className="font-bold text-primary">controle total</span>.
+              .
             </p>
             <p className="mt-4 text-lg text-muted-foreground md:text-xl">
               Perca a vergonha e o medo, e comece a desfrutar uma verdadeira
