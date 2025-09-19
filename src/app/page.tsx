@@ -50,7 +50,7 @@ export default function Home() {
               className="w-full max-w-md animate-pulse rounded-full text-lg font-bold shadow-lg shadow-primary/30"
               asChild
             >
-              <a href="#pricing">Descobrir o Segredo Agora!</a>
+              <a href="#pricing">Descobrir o Segredo!</a>
             </Button>
             <DynamicScarcity productName="O Segredo Nº1 dos Atores Pornô" />
           </section>
