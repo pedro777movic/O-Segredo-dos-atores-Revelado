@@ -18,7 +18,7 @@ const benefits = [
   },
   {
     icon: Ban,
-    text: 'Focado em prazer sexual mais performance. Você não deixará de desfrutar do prazer e garantir que a sua parceira tenha a melhor experiência sexual dela!',
+    text: 'Descobrir como prolongar o prazer e decidir o momento certo para a ejaculação.',
   },
   {
     icon: BrainCircuit,
