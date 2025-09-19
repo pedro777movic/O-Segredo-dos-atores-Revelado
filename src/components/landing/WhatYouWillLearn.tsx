@@ -22,7 +22,7 @@ const learningPoints = [
     },
   },
   {
-    title: 'Potência Máxima',
+    title: 'Performance e potência',
     description:
       'Descubra os segredos para ereções mais fortes e duradouras, sem depender de medicamentos. Métodos naturais que otimizam a circulação e a saúde sexual.',
     image: {
