@@ -3,7 +3,7 @@ import {
   Leaf,
   Ban,
   BrainCircuit,
-  BookMarked,
+  Smartphone,
   ShieldCheck,
 } from 'lucide-react';
 
@@ -25,7 +25,7 @@ const benefits = [
     text: 'Desenvolver resistência física e mental para durar muito mais tempo na cama.',
   },
   {
-    icon: BookMarked,
+    icon: Smartphone,
     text: 'Acesso imediato, leitura rápida. Em formato de app-book. Basta acessar com seu login e senha e pronto.',
   },
   {
