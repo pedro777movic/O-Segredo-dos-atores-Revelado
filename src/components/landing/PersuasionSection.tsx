@@ -3,7 +3,7 @@ export function PersuasionSection() {
     <section id="persuasion" className="py-12">
       <div className="mx-auto max-w-3xl space-y-6 text-center">
         <h2 className="font-headline text-2xl font-bold leading-tight text-foreground md:text-4xl">
-          Este ebook ensinará você a ter o mesmo{' '}
+          Com este app-book em mãos, você terá o mesmo{' '}
           <span className="text-primary">
             controle, resistência e confiança
           </span>{' '}
