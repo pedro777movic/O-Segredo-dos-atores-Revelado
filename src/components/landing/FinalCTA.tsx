@@ -19,7 +19,7 @@ export function FinalCTA() {
             className="w-full max-w-md rounded-full text-xl font-bold shadow-lg shadow-primary/30"
             asChild
           >
-            <a href="#pricing">Quero o Ebook Agora</a>
+            <a href="#pricing">Quero o Segredo</a>
           </Button>
           <p className="font-headline text-2xl font-extrabold tracking-wider text-primary">
             RISCO ZERO!
