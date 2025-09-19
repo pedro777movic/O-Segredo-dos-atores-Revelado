@@ -25,7 +25,7 @@ const slides = [
   {
     src: 'https://i.imgur.com/B6vWVoa.jpeg',
     alt: 'Casal em momento íntimo',
-    text: 'Resistência Sexual',
+    text: 'Confiança Masculina',
     'data-ai-hint': 'intimate couple',
   },
 ];
