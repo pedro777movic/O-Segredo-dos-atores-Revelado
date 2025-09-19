@@ -14,7 +14,7 @@ const benefits = [
   },
   {
     icon: Leaf,
-    text: 'Eliminar a ansiedade de desempenho e entrar com confiança em qualquer relação.',
+    text: 'Eliminar a ansiedade de desempenho e entrar ccom confiança em qualquer relação.',
   },
   {
     icon: Ban,
@@ -26,7 +26,7 @@ const benefits = [
   },
   {
     icon: BookMarked,
-    text: 'Em formato de app de livro digital. Basta acessar e pronto. Acesso imediato!',
+    text: 'Acesso imediato. Em formato de app-book. Basta acessar com seu login e senha e pronto.',
   },
   {
     icon: ShieldCheck,
