@@ -14,7 +14,7 @@ const benefits = [
   },
   {
     icon: Leaf,
-    text: 'Eliminar a ansiedade de desempenho e entrar ccom confiança em qualquer relação.',
+    text: 'Eliminar a ansiedade de desempenho e entrar com confiança em qualquer relação.',
   },
   {
     icon: Ban,
