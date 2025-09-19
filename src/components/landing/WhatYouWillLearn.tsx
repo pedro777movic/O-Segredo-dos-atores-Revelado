@@ -24,7 +24,7 @@ const learningPoints = [
   {
     title: 'Performance e potência',
     description:
-      'Descubra os segredos para ereções mais fortes e duradouras, sem depender de medicamentos. Métodos naturais que otimizam a circulação e a saúde sexual.',
+      'Você vai aprender a controlar sua excitação, aumentar sua resistência e manter firmeza mesmo nas situações mais intensas. Aqui revelamos exercícios práticos que dão controle absoluto sobre o momento do clímax. Além disso, mostramos hábitos físicos e alimentares que sustentam a potência natural, e técnicas usadas nos bastidores por atores profissionais para performance e para entrar em cena sempre confiantes.',
     image: {
       src: 'https://i.imgur.com/CJhfPsK.jpeg',
       alt: 'Homem potente',
