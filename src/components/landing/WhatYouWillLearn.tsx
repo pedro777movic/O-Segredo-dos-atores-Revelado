@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const learningPoints = [
   {
-    title: 'Controle Total',
+    title: 'Controle da Sedução',
     description:
       'Neste módulo, você vai descobrir que sedução não é um truque barato, mas sim uma energia real que desperta desejo e cria conexão profunda. Os atores da indústria adulta sabem: a performance não começa na cama, mas muito antes. A forma como você olha, fala, toca e conduz a situação já prepara o terreno para uma experiência explosiva.',
     image: {
