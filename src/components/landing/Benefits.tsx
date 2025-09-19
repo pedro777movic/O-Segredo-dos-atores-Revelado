@@ -10,7 +10,7 @@ import {
 const benefits = [
   {
     icon: Star,
-    text: 'O mais utilizado no momento pela indústria adulta. Alta performance vinda dos bastidores, passada de ator para ator',
+    text: 'Acesse segredos que só circulam nos bastidores da indústria, usados por atores pornôs para ter controle total no sexo.',
   },
   {
     icon: Leaf,
