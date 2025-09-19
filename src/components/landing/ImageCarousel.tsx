@@ -13,7 +13,7 @@ const slides = [
   {
     src: 'https://i.imgur.com/wMmC5hx.jpeg',
     alt: 'Homem confiante',
-    text: 'Controle total da sua performance',
+    text: 'Controle Absoluto',
     'data-ai-hint': 'confident man',
   },
   {
