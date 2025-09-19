@@ -11,7 +11,7 @@ export function FinalCTA() {
           Está pronto para virar o jogo?
         </h2>
         <p className="mt-4 text-lg text-muted-foreground md:text-xl">
-          Tenha acesso imediato ao ebook e comece a sua transformação hoje mesmo.
+          Tenha acesso imediato ao app-book e comece sua melhor performance ainda hoje.
         </p>
         <div className="mt-8 flex flex-col items-center gap-4">
           <Button
