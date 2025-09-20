@@ -32,9 +32,6 @@ export default function Home() {
               </span>
               .
             </p>
-            <p className="mt-4 text-lg text-muted-foreground md:text-xl">
-              Aprenda a desfrutar de uma verdadeira relação sexual!
-            </p>
           </div>
           <section
             id="cta1"
