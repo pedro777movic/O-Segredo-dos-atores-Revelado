@@ -10,7 +10,7 @@ const plans = [
     currency: 'R$',
     originalPrice: '97,00',
     features: [
-      'APP-BOOK O SEGREDO Nº1 DOS ATORES PORNÔS',
+      'APP-BOOK O SEGREDO Nº1 DOS ATORES PORNÔS: Todos os Segredos Revelados',
       'Sedução: Performance Antes da Cama',
       'Posição: O Que Diferencia O Homem Comum Dos Mestres Da Performance',
       'Performance e Potência: Domine a Retardação Ejaculatória e Obtenha Máxima Potência',
