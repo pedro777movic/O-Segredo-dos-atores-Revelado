@@ -21,7 +21,7 @@ const slides = [
   {
     src: 'https://i.imgur.com/HoULabq.jpeg',
     alt: 'Sombra de um homem musculoso',
-    text: 'Prazer Inesquecível',
+    text: '',
     'data-ai-hint': 'strong man',
     width: 1080,
     height: 1350,
