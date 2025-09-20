@@ -12,6 +12,7 @@ import { Pricing } from '@/components/landing/Pricing';
 import { Footer } from '@/components/landing/Footer';
 import { WhatYouWillLearn } from '@/components/landing/WhatYouWillLearn';
 import { VSL } from '@/components/landing/VSL';
+import { SeductionLevels } from '@/components/landing/SeductionLevels';
 
 export default function Home() {
   return (
@@ -44,6 +45,8 @@ export default function Home() {
               <a href="#pricing">Descobrir o Segredo!</a>
             </Button>
           </section>
+          <Separator className="my-2" />
+          <SeductionLevels />
           <Separator className="my-2" />
           <Benefits />
           <Separator className="my-2" />
