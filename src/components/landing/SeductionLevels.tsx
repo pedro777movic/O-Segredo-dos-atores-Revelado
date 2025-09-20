@@ -67,7 +67,7 @@ export function SeductionLevels() {
       
       const scrollPosition = window.scrollY;
       const pageHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const scrollPercentage = (scrollPosition / pageHeight) * 100;
+      const scrollPercentage = pageHeight > 0 ? (scrollPosition / pageHeight) * 100 : 0;
       
       if (scrollPercentage >= 50) {
         unlockLevel(2);
@@ -93,7 +93,9 @@ export function SeductionLevels() {
           setCurrentLevel(docSnap.data().level || 0)
         }
       } else {
-        await signInAnonymously(auth);
+        signInAnonymously(auth).catch((error) => {
+          console.error("Anonymous sign-in failed:", error);
+        });
       }
     });
 
