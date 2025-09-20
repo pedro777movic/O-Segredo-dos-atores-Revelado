@@ -10,9 +10,6 @@ export function PersuasionSection() {
           dos atores de maior performance da indústria pornográfica.
         </h2>
         <p className="text-xl text-muted-foreground md:text-2xl">
-          Nunca mais se sinta inseguro na hora H. Vire referência na cama.
-        </p>
-        <p className="text-xl text-muted-foreground md:text-2xl">
           Surpreenda qualquer parceira com um nível de entrega e resistência que será difícil para ela esquecer.
         </p>
       </div>
