@@ -25,9 +25,8 @@ export function ProductMockup() {
             <Image
               src={mockup.src}
               alt={mockup.alt}
-              width={600}
-              height={800}
-              className="h-full w-full object-cover"
+              fill
+              className="object-contain"
               data-ai-hint={mockup['data-ai-hint']}
             />
           </div>
