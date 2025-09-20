@@ -2,7 +2,7 @@ import { cn } from '@/lib/utils';
 
 export function Header() {
   return (
-    <header className="bg-gradient-to-b from-background to-secondary/20 py-20 text-center">
+    <header className="bg-gradient-to-b from-background to-secondary/20 py-12 text-center">
       <div className="container mx-auto max-w-4xl px-4">
         <h1
           className={cn(
@@ -20,7 +20,7 @@ export function Header() {
         <p className="mt-2 font-headline text-2xl font-bold md:text-3xl">
           O ápice da potência sexual masculina moderna. Em formato de app-book.
         </p>
-        <p className="mx-auto mt-8 max-w-2xl text-lg text-muted-foreground md:text-xl">
+        <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
           Você já se perguntou como os atores pornôs conseguem performances
           intensas, longas e inesquecíveis, mesmo em frente às câmeras, sob
           pressão e com tantas pessoas assistindo?

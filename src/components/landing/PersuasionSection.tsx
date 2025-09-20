@@ -1,7 +1,7 @@
 export function PersuasionSection() {
   return (
-    <section id="persuasion" className="py-12">
-      <div className="mx-auto max-w-3xl space-y-6 text-center">
+    <section id="persuasion" className="py-8">
+      <div className="mx-auto max-w-3xl space-y-4 text-center">
         <h2 className="font-headline text-2xl font-bold leading-tight text-foreground md:text-4xl">
           Com este app-book em mãos, você terá o mesmo{' '}
           <span className="text-primary">

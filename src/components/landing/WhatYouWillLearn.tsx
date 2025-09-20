@@ -35,11 +35,11 @@ const learningPoints = [
 
 export function WhatYouWillLearn() {
   return (
-    <section id="what-you-will-learn" className="py-12">
-      <h2 className="mb-12 text-center font-headline text-3xl font-bold md:text-4xl">
+    <section id="what-you-will-learn" className="py-8">
+      <h2 className="mb-10 text-center font-headline text-3xl font-bold md:text-4xl">
         O Que Você Vai Aprender
       </h2>
-      <div className="space-y-12">
+      <div className="space-y-10">
         {learningPoints.map((point, index) => (
           <div
             key={index}

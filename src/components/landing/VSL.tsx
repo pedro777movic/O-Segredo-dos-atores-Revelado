@@ -1,6 +1,6 @@
 export function VSL() {
   return (
-    <section id="vsl" className="py-12">
+    <section id="vsl" className="py-6">
       <div className="mx-auto max-w-4xl">
         <div className="relative overflow-hidden rounded-lg border-2 border-primary shadow-2xl shadow-primary/20">
           <div className="aspect-video w-full">

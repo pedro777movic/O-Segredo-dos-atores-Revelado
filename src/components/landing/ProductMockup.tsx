@@ -15,7 +15,7 @@ const mockups = [
 
 export function ProductMockup() {
   return (
-    <section id="product" className="py-12">
+    <section id="product" className="py-8">
       <div className="mx-auto grid max-w-4xl grid-cols-1 gap-8 md:grid-cols-2">
         {mockups.map((mockup, index) => (
           <div
@@ -33,7 +33,7 @@ export function ProductMockup() {
           </div>
         ))}
       </div>
-      <p className="mt-8 text-center text-lg font-semibold text-muted-foreground">
+      <p className="mt-6 text-center text-lg font-semibold text-muted-foreground">
         Versão digital que cabe no bolso
       </p>
     </section>

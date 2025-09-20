@@ -26,8 +26,8 @@ const plans = [
 
 export function Pricing() {
   return (
-    <section id="pricing" className="py-12">
-      <h2 className="mb-10 text-center font-headline text-3xl font-bold md:text-4xl">
+    <section id="pricing" className="py-8">
+      <h2 className="mb-8 text-center font-headline text-3xl font-bold md:text-4xl">
         O que você vai receber
       </h2>
       <div className="flex justify-center">
@@ -51,7 +51,7 @@ export function Pricing() {
             </CardHeader>
             <CardContent className="flex flex-1 flex-col justify-between p-8">
               <div>
-                <div className="mb-8 text-center">
+                <div className="mb-6 text-center">
                   {plan.originalPrice && (
                     <p className="text-lg text-muted-foreground line-through">
                       {plan.currency}

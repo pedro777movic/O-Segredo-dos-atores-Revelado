@@ -49,12 +49,12 @@ const testimonials = [
 
 export function SocialProof() {
   return (
-    <section id="social-proof" className="py-12">
+    <section id="social-proof" className="py-8">
       <div className="text-center">
         <h2 className="mb-4 font-headline text-3xl font-bold md:text-4xl">
           O Que Eles Estão Dizendo
         </h2>
-        <p className="mb-10 text-lg text-muted-foreground">
+        <p className="mb-8 text-lg text-muted-foreground">
           São centenas de relatos de homens e de suas parceiras.
         </p>
       </div>
