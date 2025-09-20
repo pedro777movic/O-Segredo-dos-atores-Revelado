@@ -15,18 +15,24 @@ const slides = [
     alt: 'Homem confiante',
     text: 'Controle Absoluto',
     'data-ai-hint': 'confident man',
+    width: 1080,
+    height: 720,
   },
   {
     src: 'https://i.imgur.com/HoULabq.jpeg',
     alt: 'Sombra de um homem musculoso',
     text: 'Prazer Inesquecível',
     'data-ai-hint': 'strong man',
+    width: 1080,
+    height: 720,
   },
   {
     src: 'https://i.imgur.com/B6vWVoa.jpeg',
     alt: 'Casal em momento íntimo',
     text: 'Confiança Masculina',
     'data-ai-hint': 'intimate couple',
+    width: 1080,
+    height: 720,
   },
 ];
 
@@ -42,12 +48,13 @@ export function ImageCarousel() {
         <CarouselContent>
           {slides.map((slide, index) => (
             <CarouselItem key={index}>
-              <div className="relative h-64 w-full overflow-hidden rounded-lg shadow-2xl md:h-96">
+              <div className="relative w-full overflow-hidden rounded-lg shadow-2xl">
                 <Image
                   src={slide.src}
                   alt={slide.alt}
-                  fill
-                  className="object-cover"
+                  width={slide.width}
+                  height={slide.height}
+                  className="h-auto w-full object-cover"
                   data-ai-hint={slide['data-ai-hint']}
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-black/50">
