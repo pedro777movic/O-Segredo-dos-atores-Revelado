@@ -18,7 +18,7 @@ const benefits = [
   },
   {
     icon: Ban,
-    text: 'Descobrir como prolongar o prazer e decidir o momento certo para a ejaculação.',
+    text: 'Prolongue o prazer e decida o momento certo para a ejaculação.',
   },
   {
     icon: BrainCircuit,
