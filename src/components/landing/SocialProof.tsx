@@ -13,7 +13,7 @@ const testimonials = [
     quote:
       'Foi o santo remédio. Fui de uns 5 min para mais de 1 hora fácil, e só paro agora quando a gata goza 😈',
     name: 'André F., 25 anos, Paraty/RJ',
-    avatar: 'https://picsum.photos/seed/men0/100/100',
+    avatar: 'https://images.unsplash.com/photo-1654514489490-bfa99f660e9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnYXJvdG98ZW58MHx8fHwxNzU4MzM4MzQwfDA&ixlib=rb-4.1.0&q=80&w=1080',
     'data-ai-hint': 'man portrait'
   },
   {
