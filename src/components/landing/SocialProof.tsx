@@ -19,7 +19,7 @@ const testimonials = [
   {
     quote:
       'Amoor, como você ficou tão bom tão rápido? Quero muito mais, vamos nos ver amanhã de novo, por favor, preciso transar com você!!',
-    name: 'Ricardo S. + Júlia A.',
+    name: 'Diogo V. + Júlia A.',
     avatar: 'https://i.imgur.com/Yt2Thye.jpeg',
     'data-ai-hint': 'happy couple'
   },
