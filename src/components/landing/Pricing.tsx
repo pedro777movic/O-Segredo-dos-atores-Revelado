@@ -11,7 +11,7 @@ const plans = [
     originalPrice: '97,00',
     features: [
       'APP-BOOK O SEGREDO Nº1 DOS ATORES PORNÔS',
-      'Aumente sua resistência e prolongue o prazer',
+      'Sedução: Performance Antes da Cama',
       'Elimine a ansiedade e tenha confiança inabalável',
       'Acesso imediato ao app-book completo',
     ],
