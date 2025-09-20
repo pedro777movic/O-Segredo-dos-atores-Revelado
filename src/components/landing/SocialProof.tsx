@@ -26,7 +26,7 @@ const testimonials = [
   {
     quote:
       'Valeu muito a pena! Elas ficam loucas, tem garota implorando pra transar comigo, querem gozar toda hora. Meu corpo e minha mente ficaram em outro nível. Obrigado',
-    name: 'Paulo G.',
+    name: 'Paulo, 27 anos, Joinville/SC',
     avatar: 'https://i.imgur.com/8RODqEe.jpeg',
     'data-ai-hint': 'man smiling'
   },
