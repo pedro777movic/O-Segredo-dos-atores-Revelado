@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, Fragment } from 'react';
 import { signInAnonymously } from 'firebase/auth';
 import { doc, onSnapshot, setDoc, getDoc } from 'firebase/firestore';
 import { auth, db } from '@/lib/firebase';
@@ -122,7 +122,7 @@ export function SeductionLevels() {
           {/* Stepper */}
           <div className="flex items-center justify-center mb-6">
             {levels.map((level, index) => (
-              <>
+              <Fragment key={level.name}>
                 <div className="flex flex-col items-center">
                   <div className={cn(
                     "w-10 h-10 rounded-full flex items-center justify-center border-2 transition-all duration-300",
@@ -141,7 +141,7 @@ export function SeductionLevels() {
                       currentLevel > index + 1 ? "bg-green-500" : "bg-gray-600"
                   )}></div>
                 )}
-              </>
+              </Fragment>
             ))}
           </div>
           
