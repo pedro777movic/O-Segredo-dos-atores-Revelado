@@ -55,7 +55,7 @@ export function SocialProof() {
           O Que Eles Estão Dizendo
         </h2>
         <p className="mb-10 text-lg text-muted-foreground">
-          São centenas de relatos dos homens e das suas parceiras
+          São centenas de relatos de homens e de suas parceiras.
         </p>
       </div>
       <Carousel
