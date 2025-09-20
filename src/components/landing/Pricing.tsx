@@ -12,7 +12,7 @@ const plans = [
     features: [
       'APP-BOOK O SEGREDO Nº1 DOS ATORES PORNÔS',
       'Sedução: Performance Antes da Cama',
-      'Elimine a ansiedade e tenha confiança inabalável',
+      'Posição: O Que Diferencia O Homem Comum Dos Mestres Da Performance',
       'Acesso imediato ao app-book completo',
     ],
     buttonText: 'Quero o Combo Completo',
