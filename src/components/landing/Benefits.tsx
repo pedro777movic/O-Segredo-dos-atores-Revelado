@@ -26,7 +26,7 @@ const benefits = [
   },
   {
     icon: Smartphone,
-    text: 'Acesso imediato, leitura rápida. Em formato de app-book. Basta acessar com seu login e senha e pronto.',
+    text: 'Acesso imediato com leituras rápidas. Em formato de app-book. Basta acessar e pronto.',
   },
   {
     icon: ShieldCheck,
