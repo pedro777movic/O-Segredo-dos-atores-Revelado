@@ -19,7 +19,7 @@ const slides = [
     height: 1350,
   },
   {
-    src: 'https://i.imgur.com/HoULabq.jpeg',
+    src: 'https://i.imgur.com/NfukaYy.jpeg',
     alt: 'Sombra de um homem musculoso',
     text: '',
     'data-ai-hint': 'strong man',
