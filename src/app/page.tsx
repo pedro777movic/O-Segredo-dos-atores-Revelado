@@ -24,13 +24,11 @@ export default function Home() {
           <ImageCarousel />
           <div className="my-8 text-center">
             <p className="text-xl text-foreground md:text-2xl">
-              Descubra os segredos utilizados pela indústria moderna para alta
-              performance durante o sexo. Tecnicas e métodos que são utilizados
-              pelos melhores atores pornôs para tornar-se uma potência,
-              melhorando naturalmente{' '}
+              Descubra os segredos da indústria adulta para uma alta performance
+              sexual. Aprenda as técnicas dos melhores atores pornôs para
+              melhorar naturalmente sua{' '}
               <span className="font-bold text-primary">
-                resistência, controle, retardação ejaculatória, habilidade de
-                dar prazer, conexão intensa, e mais
+                resistência, controle e prazer
               </span>
               .
             </p>
