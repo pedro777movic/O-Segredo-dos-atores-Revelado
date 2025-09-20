@@ -11,7 +11,6 @@ import { Separator } from '@/components/ui/separator';
 import { Pricing } from '@/components/landing/Pricing';
 import { Footer } from '@/components/landing/Footer';
 import { WhatYouWillLearn } from '@/components/landing/WhatYouWillLearn';
-import { DynamicScarcity } from '@/components/landing/DynamicScarcity';
 import { VSL } from '@/components/landing/VSL';
 
 export default function Home() {
@@ -22,7 +21,7 @@ export default function Home() {
         <div className="container mx-auto max-w-5xl px-4">
           <VSL />
           <ImageCarousel />
-          <div className="my-4 text-center">
+          <div className="my-2 text-center">
             <p className="text-xl text-foreground md:text-2xl">
               Descubra os segredos da indústria adulta para uma alta performance
               sexual. Aprenda as técnicas dos melhores atores pornôs para
@@ -35,7 +34,7 @@ export default function Home() {
           </div>
           <section
             id="cta1"
-            className="flex flex-col items-center gap-2 py-6 text-center"
+            className="flex flex-col items-center gap-2 py-2 text-center"
           >
             <Button
               size="lg"
@@ -45,21 +44,21 @@ export default function Home() {
               <a href="#pricing">Descobrir o Segredo!</a>
             </Button>
           </section>
-          <Separator className="my-4" />
+          <Separator className="my-2" />
           <Benefits />
-          <Separator className="my-6" />
+          <Separator className="my-2" />
           <ProductMockup />
-          <Separator className="my-6" />
+          <Separator className="my-2" />
           <WhatYouWillLearn />
-          <Separator className="my-6" />
+          <Separator className="my-2" />
           <PersuasionSection />
-          <Separator className="my-6" />
+          <Separator className="my-2" />
           <Guarantee />
-          <Separator className="my-6" />
+          <Separator className="my-2" />
           <Pricing />
           <section
             id="cta2"
-            className="flex flex-col items-center gap-2 py-6 text-center"
+            className="flex flex-col items-center gap-2 py-2 text-center"
           >
             <Button
               size="lg"
@@ -68,8 +67,11 @@ export default function Home() {
             >
               <a href="https://pay.cakto.com.br/ajsxsz2_562111">Descobrir Segredo!</a>
             </Button>
+            <p className="mt-2 text-sm font-semibold text-primary">
+              Não ficará disponível por muito tempo!
+            </p>
           </section>
-          <Separator className="my-4" />
+          <Separator className="my-2" />
           <SocialProof />
         </div>
         <FinalCTA />
