@@ -42,15 +42,15 @@ export function ImageCarousel() {
           loop: true,
         }}
       >
-        <CarouselContent>
+        <CarouselContent className="-ml-4 h-[650px]">
           {slides.map((slide, index) => (
-            <CarouselItem key={index}>
-              <div className="relative aspect-[4/5] w-full overflow-hidden rounded-lg shadow-2xl">
+            <CarouselItem key={index} className="pl-4">
+              <div className="relative h-full w-full overflow-hidden rounded-lg shadow-2xl">
                 <Image
                   src={slide.src}
                   alt={slide.alt}
                   fill
-                  className="object-cover"
+                  className="object-contain"
                   data-ai-hint={slide['data-ai-hint']}
                   sizes="(max-width: 768px) 100vw, 80vw"
                 />
