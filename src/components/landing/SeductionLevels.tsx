@@ -44,20 +44,21 @@ export function SeductionLevels() {
   const [currentLevel, setCurrentLevel] = useState(0);
   const { toast } = useToast();
 
-  const showToast = useCallback((message: string) => {
-    toast({
-      title: 'Progresso Desbloqueado!',
-      description: message,
-      duration: 3000,
-    });
-  }, [toast]);
+  const showToast = useCallback((message: string, level: number) => {
+    if (level > currentLevel) {
+        toast({
+            title: 'Progresso Desbloqueado!',
+            description: message,
+            duration: 3000,
+        });
+    }
+  }, [toast, currentLevel]);
 
   const unlockLevel = useCallback(async (level: number) => {
     if (userId && level > currentLevel) {
       await setDoc(doc(db, 'progresso', userId), { level }, { merge: true });
-      showToast(levels[level-1].message);
     }
-  }, [userId, currentLevel, showToast]);
+  }, [userId, currentLevel]);
 
 
   useEffect(() => {
@@ -68,12 +69,11 @@ export function SeductionLevels() {
       
       if (scrollPercentage >= 50) {
         unlockLevel(2);
-        window.removeEventListener('scroll', handleScroll);
       }
     };
     
     if(currentLevel < 2) {
-        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', handleScroll, { passive: true });
     }
 
     return () => window.removeEventListener('scroll', handleScroll);
@@ -88,7 +88,8 @@ export function SeductionLevels() {
 
         if (!docSnap.exists()) {
           await setDoc(docRef, { level: 1 });
-           showToast(levels[0].message);
+        } else {
+          setCurrentLevel(docSnap.data().level || 0)
         }
       } else {
         await signInAnonymously(auth);
@@ -96,7 +97,7 @@ export function SeductionLevels() {
     });
 
     return () => unsubscribeAuth();
-  }, [showToast]);
+  }, []);
 
   useEffect(() => {
     if (userId) {
@@ -104,6 +105,7 @@ export function SeductionLevels() {
         if (doc.exists()) {
           const newLevel = doc.data().level;
           if (newLevel > currentLevel) {
+             showToast(levels[newLevel-1].message, newLevel);
              setCurrentLevel(newLevel);
           }
         }
@@ -115,7 +117,7 @@ export function SeductionLevels() {
   const allLevelsCompleted = currentLevel >= 3;
 
   return (
-    <section id="seduction-game" className="py-8">
+    <section id="seduction-game" className="py-2">
       <div className="container mx-auto max-w-5xl px-4">
         <div className="rounded-lg bg-secondary/30 p-6">
           <h2 className="text-center font-headline text-2xl font-bold md:text-3xl mb-6">Os Níveis da Sedução</h2>
@@ -147,7 +149,7 @@ export function SeductionLevels() {
           
           {/* Content */}
           <div className="text-center">
-            {currentLevel > 0 && currentLevel <= 3 && (
+            {currentLevel > 0 && currentLevel <= 3 && !allLevelsCompleted && (
                 <div className="my-4">
                     <p className="text-lg font-semibold text-primary">{levels[currentLevel -1].message}</p>
                     <p className="text-muted-foreground">{levels[currentLevel - 1].text}</p>
