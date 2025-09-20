@@ -13,7 +13,7 @@ const plans = [
       'APP-BOOK O SEGREDO Nº1 DOS ATORES PORNÔS',
       'Sedução: Performance Antes da Cama',
       'Posição: O Que Diferencia O Homem Comum Dos Mestres Da Performance',
-      'Acesso imediato ao app-book completo',
+      'Performance e Potência: Domine a Retardação Ejaculatória e Obtenha Máxima Potência',
     ],
     buttonText: 'Quero o Combo Completo',
     bgColor: 'bg-primary',
