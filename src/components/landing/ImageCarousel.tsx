@@ -27,7 +27,7 @@ const slides = [
     height: 1350,
   },
   {
-    src: 'https://i.imgur.com/B6vWVoa.jpeg',
+    src: 'https://i.imgur.com/JSdHY67.jpeg',
     alt: 'Casal em momento íntimo',
     text: '',
     'data-ai-hint': 'intimate couple',
