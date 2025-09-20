@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'PotentPeak',
+  title: 'Osegredodosatores',
   description:
     'Descubra o Segredo Nº1 dos Atores Pornô para uma potência sexual inabalável.',
 };
