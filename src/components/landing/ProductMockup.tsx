@@ -7,11 +7,6 @@ const mockups = [
     'data-ai-hint': 'ebook cover',
   },
   {
-    src: 'https://i.imgur.com/CYP4ykz.jpeg',
-    alt: 'Página interna do Ebook',
-    'data-ai-hint': 'ebook page',
-  },
-  {
     src: 'https://i.imgur.com/ydgMl9x.jpeg',
     alt: 'Ebook em um tablet',
     'data-ai-hint': 'ebook tablet',
@@ -21,7 +16,7 @@ const mockups = [
 export function ProductMockup() {
   return (
     <section id="product" className="py-12">
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+      <div className="mx-auto grid max-w-4xl grid-cols-1 gap-8 md:grid-cols-2">
         {mockups.map((mockup, index) => (
           <div
             key={index}
