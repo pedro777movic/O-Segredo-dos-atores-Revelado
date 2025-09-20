@@ -20,7 +20,7 @@ export function ProductMockup() {
         {mockups.map((mockup, index) => (
           <div
             key={index}
-            className="group relative h-96 w-full transform overflow-hidden rounded-lg shadow-xl transition-transform duration-300 hover:scale-105"
+            className="group relative aspect-[3/4] w-full transform overflow-hidden rounded-lg shadow-xl transition-transform duration-300 hover:scale-105"
           >
             <Image
               src={mockup.src}
@@ -28,6 +28,7 @@ export function ProductMockup() {
               fill
               className="object-contain"
               data-ai-hint={mockup['data-ai-hint']}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </div>
         ))}
