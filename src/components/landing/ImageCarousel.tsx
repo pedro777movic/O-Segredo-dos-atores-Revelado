@@ -29,7 +29,7 @@ const slides = [
   {
     src: 'https://i.imgur.com/B6vWVoa.jpeg',
     alt: 'Casal em momento íntimo',
-    text: 'Confiança Masculina',
+    text: '',
     'data-ai-hint': 'intimate couple',
     width: 1080,
     height: 1350,
