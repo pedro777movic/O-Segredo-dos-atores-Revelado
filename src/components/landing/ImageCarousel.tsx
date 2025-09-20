@@ -35,7 +35,7 @@ const slides = [
 
 export function ImageCarousel() {
   return (
-    <section className="py-12">
+    <section className="py-6 md:py-12">
       <Carousel
         className="w-full"
         opts={{
