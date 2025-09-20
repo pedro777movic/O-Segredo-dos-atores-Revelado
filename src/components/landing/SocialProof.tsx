@@ -19,7 +19,7 @@ const testimonials = [
   {
     quote:
       'Amoor, como você ficou tão bom tão rápido? Quero muito mais, vamos nos ver amanhã de novo, por favor, preciso transar com você!!',
-    name: 'Diogo V. + Júlia A.',
+    name: 'Andressa e Diogo, ambos 22 anos, São Paulo/SP',
     avatar: 'https://i.imgur.com/Yt2Thye.jpeg',
     'data-ai-hint': 'happy couple'
   },
