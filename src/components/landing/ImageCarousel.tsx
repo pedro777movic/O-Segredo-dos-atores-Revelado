@@ -16,7 +16,7 @@ const slides = [
     text: 'Controle Absoluto',
     'data-ai-hint': 'confident man',
     width: 1080,
-    height: 720,
+    height: 1350,
   },
   {
     src: 'https://i.imgur.com/HoULabq.jpeg',
@@ -24,7 +24,7 @@ const slides = [
     text: 'Prazer Inesquecível',
     'data-ai-hint': 'strong man',
     width: 1080,
-    height: 720,
+    height: 1350,
   },
   {
     src: 'https://i.imgur.com/B6vWVoa.jpeg',
@@ -32,7 +32,7 @@ const slides = [
     text: 'Confiança Masculina',
     'data-ai-hint': 'intimate couple',
     width: 1080,
-    height: 720,
+    height: 1350,
   },
 ];
 
