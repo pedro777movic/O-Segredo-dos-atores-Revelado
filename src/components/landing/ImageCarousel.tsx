@@ -13,7 +13,7 @@ const slides = [
   {
     src: 'https://i.imgur.com/Nayc6wW.jpeg',
     alt: 'Homem confiante',
-    text: 'Controle Absoluto',
+    text: '',
     'data-ai-hint': 'confident man',
     width: 1080,
     height: 1350,
@@ -57,11 +57,13 @@ export function ImageCarousel() {
                   className="h-auto w-full object-cover"
                   data-ai-hint={slide['data-ai-hint']}
                 />
-                <div className="absolute inset-0 flex items-center justify-center bg-black/50">
-                  <h2 className="font-headline text-3xl font-bold text-white md:text-5xl">
-                    {slide.text}
-                  </h2>
-                </div>
+                {slide.text && (
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+                    <h2 className="font-headline text-3xl font-bold text-white md:text-5xl">
+                      {slide.text}
+                    </h2>
+                  </div>
+                )}
               </div>
             </CarouselItem>
           ))}
