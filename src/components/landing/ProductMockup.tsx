@@ -39,7 +39,7 @@ export function ProductMockup() {
         ))}
       </div>
       <p className="mt-8 text-center text-lg font-semibold text-muted-foreground">
-        Versão digital. Acesso imediato após a compra.
+        Versão digital que cabe no bolso
       </p>
     </section>
   );
