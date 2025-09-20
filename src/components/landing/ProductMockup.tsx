@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const mockups = [
   {
-    src: 'https://i.imgur.com/WOZTYoc.png',
+    src: 'https://i.imgur.com/wzpEtV3.jpeg',
     alt: 'Capa do Ebook',
     'data-ai-hint': 'ebook cover',
   },
