@@ -12,6 +12,7 @@ import { Pricing } from '@/components/landing/Pricing';
 import { Footer } from '@/components/landing/Footer';
 import { WhatYouWillLearn } from '@/components/landing/WhatYouWillLearn';
 import { VSL } from '@/components/landing/VSL';
+import { SeductionJourney } from '@/components/landing/SeductionJourney';
 
 export default function Home() {
   return (
@@ -44,6 +45,7 @@ export default function Home() {
               <a href="#pricing">Descobrir o Segredo!</a>
             </Button>
           </section>
+          <SeductionJourney />
           <Separator className="my-2" />
           <Benefits />
           <Separator className="my-2" />
@@ -65,7 +67,9 @@ export default function Home() {
               className="w-full max-w-md rounded-full text-lg font-bold shadow-lg shadow-primary/30"
               asChild
             >
-              <a href="https://pay.cakto.com.br/ajsxsz2_562111">Descobrir Segredo!</a>
+              <a href="https://pay.cakto.com.br/ajsxsz2_562111">
+                Descobrir Segredo!
+              </a>
             </Button>
             <p className="mt-2 text-sm font-semibold text-primary">
               Não ficará disponível por muito tempo!
