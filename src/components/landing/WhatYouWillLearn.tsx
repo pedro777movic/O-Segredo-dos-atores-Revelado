@@ -16,7 +16,7 @@ const learningPoints = [
     description:
       'Se existe um segredo que diferencia os homens comuns dos mestres da performance sexual, ele está aqui. Não basta apenas “saber algumas posições”. O que faz a diferença é como você joga com elas, alternando ritmo, intensidade e conexão para transformar o sexo em uma experiência dinâmica e inesquecível.',
     image: {
-      src: 'https://i.imgur.com/WfSi2pw.jpeg',
+      src: 'https://i.imgur.com/bT7XP0L.jpeg',
       alt: 'Homem em controle',
       'data-ai-hint': 'man control',
     },
