@@ -12,7 +12,7 @@ const testimonials = [
   {
     quote:
       'Foi o santo remédio. Fui de uns 5 min para mais de 1 hora fácil, e só paro agora quando a gata goza 😈',
-    name: 'Carlos M.',
+    name: 'André F.',
     avatar: 'https://picsum.photos/seed/men0/100/100',
     'data-ai-hint': 'man portrait'
   },
@@ -99,8 +99,8 @@ export function SocialProof() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="left-4" />
+        <CarouselNext className="right-4" />
       </Carousel>
     </section>
   );
