@@ -22,7 +22,7 @@ const benefits = [
   },
   {
     icon: BrainCircuit,
-    text: 'Desenvolver resistência física e mental para durar muito mais tempo na cama.',
+    text: 'Máxima resistência física e mental para estender seu tempo na cama.',
   },
   {
     icon: Smartphone,
