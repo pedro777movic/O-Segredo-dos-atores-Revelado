@@ -41,7 +41,7 @@ const testimonials = [
     quote:
       'Eu não tinha confiança porque naquelas horas eu sempre decepcionava as mulheres que eu ficava. Obrigado! A sensação é que agora eu sou outro homem, não tenho mais limites na cama!',
     name: 'Lucas T.',
-    avatar: 'https://images.unsplash.com/photo-1654514457969-8bbb5cdf9468?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnYXJvdG98ZW58MHx8fHwxNzU3NzMxNzE4fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aG9tZW18ZW58MHx8fHwxNzU4MzM4MjA0fDA&ixlib=rb-4.1.0&q=80&w=1080',
     'data-ai-hint': 'confident couple'
   },
 ];
