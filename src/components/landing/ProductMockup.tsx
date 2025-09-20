@@ -34,7 +34,7 @@ export function ProductMockup() {
         ))}
       </div>
       <p className="mt-6 text-center text-lg font-semibold text-muted-foreground">
-        Versão digital que cabe no bolso
+        Versão App-Book
       </p>
     </section>
   );
