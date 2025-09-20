@@ -22,7 +22,7 @@ export default function Home() {
         <div className="container mx-auto max-w-5xl px-4">
           <VSL />
           <ImageCarousel />
-          <div className="my-6 text-center">
+          <div className="my-4 text-center">
             <p className="text-xl text-foreground md:text-2xl">
               Descubra os segredos da indústria adulta para uma alta performance
               sexual. Aprenda as técnicas dos melhores atores pornôs para
@@ -35,7 +35,7 @@ export default function Home() {
           </div>
           <section
             id="cta1"
-            className="flex flex-col items-center gap-2 py-8 text-center"
+            className="flex flex-col items-center gap-2 py-6 text-center"
           >
             <Button
               size="lg"
@@ -44,23 +44,22 @@ export default function Home() {
             >
               <a href="#pricing">Descobrir o Segredo!</a>
             </Button>
-            <DynamicScarcity productName="O Segredo Nº1 dos Atores Pornô" />
           </section>
-          <Separator className="my-6" />
+          <Separator className="my-4" />
           <Benefits />
-          <Separator className="my-8" />
+          <Separator className="my-6" />
           <ProductMockup />
-          <Separator className="my-8" />
+          <Separator className="my-6" />
           <WhatYouWillLearn />
-          <Separator className="my-8" />
+          <Separator className="my-6" />
           <PersuasionSection />
-          <Separator className="my-8" />
+          <Separator className="my-6" />
           <Guarantee />
-          <Separator className="my-8" />
+          <Separator className="my-6" />
           <Pricing />
           <section
             id="cta2"
-            className="flex flex-col items-center gap-2 py-8 text-center"
+            className="flex flex-col items-center gap-2 py-6 text-center"
           >
             <Button
               size="lg"
@@ -69,9 +68,8 @@ export default function Home() {
             >
               <a href="https://pay.cakto.com.br/ajsxsz2_562111">Descobrir Segredo!</a>
             </Button>
-             <DynamicScarcity productName="O Segredo Nº1 dos Atores Pornô" />
           </section>
-          <Separator className="my-6" />
+          <Separator className="my-4" />
           <SocialProof />
         </div>
         <FinalCTA />
