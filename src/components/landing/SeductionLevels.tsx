@@ -22,7 +22,7 @@ const levels = [
   {
     level: 2,
     name: 'Excitação',
-    message: 'Está ficando quente 🔥...',
+    message: 'Está ficando quente 🔥…',
     text: 'O detalhe secreto que aumenta a excitação da parceira sem ela perceber.',
     icon: Flame,
     unlockedIcon: Check,
@@ -31,7 +31,7 @@ const levels = [
   {
     level: 3,
     name: 'Clímax',
-    message: 'Quase no ápice...',
+    message: 'Quase no ápice…',
     text: 'A peça-chave que leva ao ponto máximo da performance.',
     icon: Rocket,
     unlockedIcon: Check,
@@ -63,6 +63,8 @@ export function SeductionLevels() {
 
   useEffect(() => {
     const handleScroll = () => {
+      if (currentLevel >= 2) return;
+      
       const scrollPosition = window.scrollY;
       const pageHeight = document.documentElement.scrollHeight - window.innerHeight;
       const scrollPercentage = (scrollPosition / pageHeight) * 100;
@@ -72,10 +74,8 @@ export function SeductionLevels() {
       }
     };
     
-    if(currentLevel < 2) {
-        window.addEventListener('scroll', handleScroll, { passive: true });
-    }
-
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    
     return () => window.removeEventListener('scroll', handleScroll);
   }, [unlockLevel, currentLevel]);
 
@@ -88,6 +88,7 @@ export function SeductionLevels() {
 
         if (!docSnap.exists()) {
           await setDoc(docRef, { level: 1 });
+          setCurrentLevel(1);
         } else {
           setCurrentLevel(docSnap.data().level || 0)
         }
