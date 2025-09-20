@@ -80,11 +80,6 @@ export function Pricing() {
                 >
                   <a href="https://pay.cakto.com.br/ajsxsz2_562111">{plan.buttonText}</a>
                 </Button>
-                {plan.primary && (
-                  <p className="mt-4 text-center text-xs text-muted-foreground">
-                    Atenção: Oferta por tempo limitado!
-                  </p>
-                )}
               </div>
             </CardContent>
           </Card>
