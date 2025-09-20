@@ -11,7 +11,7 @@ import {
 
 const slides = [
   {
-    src: 'https://i.imgur.com/wMmC5hx.jpeg',
+    src: 'https://i.imgur.com/Nayc6wW.jpeg',
     alt: 'Homem confiante',
     text: 'Controle Absoluto',
     'data-ai-hint': 'confident man',
