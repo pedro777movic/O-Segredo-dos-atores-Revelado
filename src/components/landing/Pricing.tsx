@@ -10,7 +10,7 @@ const plans = [
     currency: 'R$',
     originalPrice: '97,00',
     features: [
-      'Domine as técnicas dos atores para um controle total',
+      'APP-BOOK O SEGREDO Nº1 DOS ATORES PORNÔS',
       'Aumente sua resistência e prolongue o prazer',
       'Elimine a ansiedade e tenha confiança inabalável',
       'Acesso imediato ao app-book completo',
