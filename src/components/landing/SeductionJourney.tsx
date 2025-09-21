@@ -13,6 +13,7 @@ import {
 } from 'firebase/firestore';
 import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
 import { app } from '@/lib/firebase';
+import toast from 'react-hot-toast';
 
 const db = getFirestore(app);
 const auth = getAuth(app);
@@ -68,6 +69,7 @@ export function SeductionJourney() {
   const [unlockedLevels, setUnlockedLevels] = useState([0]);
   const [levelMessages, setLevelMessages] = useState<string[]>([]);
   const journeyRef = useRef<HTMLDivElement>(null);
+  const toastShownForLevel = useRef<Set<number>>(new Set());
 
   useEffect(() => {
     const handleAuthStateChanged = onAuthStateChanged(auth, async (user) => {
@@ -96,6 +98,10 @@ export function SeductionJourney() {
         setUnlockedLevels(
           Array.from({ length: serverLevel + 1 }, (_, i) => i)
         );
+         // Mark toasts as shown for levels already unlocked
+         for (let i = 0; i <= serverLevel; i++) {
+          toastShownForLevel.current.add(i);
+        }
       } else {
         setDoc(docRef, { level: 0 });
       }
@@ -113,14 +119,26 @@ export function SeductionJourney() {
   const updateUserLevel = useCallback(
     async (newLevel: number) => {
       if (!userId || newLevel <= currentLevel) return;
+
+      const previousLevel = currentLevel;
       setCurrentLevel(newLevel);
-      if (
-        !unlockedLevels.includes(newLevel)
-      ) {
+
+      if (!unlockedLevels.includes(newLevel)) {
         setUnlockedLevels((prev) => [...prev, newLevel]);
       }
       const docRef = doc(db, 'progress', userId);
       await setDoc(docRef, { level: newLevel }, { merge: true });
+      
+      // Show toast for newly unlocked levels, but not for the first one
+      for (let i = previousLevel + 1; i <= newLevel; i++) {
+        if (i > 0 && !toastShownForLevel.current.has(i)) {
+          const levelData = levels[i];
+          toast.success(`Nível Desbloqueado: ${levelData.name}`, {
+            icon: <levelData.icon className="h-6 w-6 text-primary-foreground" />,
+          });
+          toastShownForLevel.current.add(i);
+        }
+      }
     },
     [userId, currentLevel, unlockedLevels]
   );

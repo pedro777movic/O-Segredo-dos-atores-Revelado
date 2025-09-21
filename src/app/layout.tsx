@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import { Toaster } from '@/components/ui/toaster';
+import { Toaster as ShadToaster } from '@/components/ui/toaster';
+import { Toaster as HotToaster } from 'react-hot-toast';
 import { cn } from '@/lib/utils';
 import Script from 'next/script';
 
@@ -55,8 +56,15 @@ export default function RootLayout({
           'min-h-screen bg-background font-body text-foreground antialiased'
         )}
       >
+        <HotToaster
+          position="bottom-center"
+          toastOptions={{
+            className:
+              '!rounded-xl !bg-primary !text-primary-foreground !font-bold',
+          }}
+        />
         {children}
-        <Toaster />
+        <ShadToaster />
       </body>
     </html>
   );
