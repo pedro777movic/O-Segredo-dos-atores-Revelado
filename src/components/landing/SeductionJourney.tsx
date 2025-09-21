@@ -4,21 +4,6 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { Check, Sparkles, Flame, Gem } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
-import {
-  getFirestore,
-  doc,
-  getDoc,
-  setDoc,
-  onSnapshot,
-  Firestore,
-} from 'firebase/firestore';
-import {
-  getAuth,
-  signInAnonymously,
-  onAuthStateChanged,
-  Auth,
-} from 'firebase/auth';
-import { app } from '@/lib/firebase';
 import toast from 'react-hot-toast';
 
 const levels = [
@@ -67,79 +52,48 @@ const getRandomMessage = (levelIndex: number) => {
 };
 
 export function SeductionJourney() {
-  const [userId, setUserId] = useState<string | null>(null);
   const [currentLevel, setCurrentLevel] = useState(0);
-  const [unlockedLevels, setUnlockedLevels] = useState([0]);
   const [levelMessages, setLevelMessages] = useState<string[]>([]);
   const journeyRef = useRef<HTMLDivElement>(null);
   const toastShownForLevel = useRef<Set<number>>(new Set());
 
-  const [auth, setAuth] = useState<Auth | null>(null);
-  const [db, setDb] = useState<Firestore | null>(null);
-
+  // Load initial state from localStorage
   useEffect(() => {
-    const authInstance = getAuth(app);
-    const dbInstance = getFirestore(app);
-    setAuth(authInstance);
-    setDb(dbInstance);
-
-    const handleAuthStateChanged = onAuthStateChanged(authInstance, async (user) => {
-      if (user) {
-        setUserId(user.uid);
-      } else {
-        try {
-          await signInAnonymously(authInstance);
-        } catch (error) {
-          console.error("Anonymous sign in failed", error);
-        }
-      }
-    });
-    return () => handleAuthStateChanged();
-  }, []);
-
-  useEffect(() => {
-    if (!userId || !db) return;
-    const docRef = doc(db, 'progress', userId);
-
-    const unsubscribe = onSnapshot(docRef, (docSnap) => {
-      if (docSnap.exists()) {
-        const data = docSnap.data();
-        const serverLevel = data.level || 0;
-        setCurrentLevel(serverLevel);
-        const newUnlocked = Array.from({ length: serverLevel + 1 }, (_, i) => i);
-        setUnlockedLevels(newUnlocked);
-         // Mark toasts as shown for levels already unlocked
-         for (let i = 0; i <= serverLevel; i++) {
+    try {
+      const savedLevel = localStorage.getItem('seductionJourneyLevel');
+      if (savedLevel) {
+        const parsedLevel = parseInt(savedLevel, 10);
+        setCurrentLevel(parsedLevel);
+        // Mark toasts as shown for levels already unlocked
+        for (let i = 0; i <= parsedLevel; i++) {
           toastShownForLevel.current.add(i);
         }
-      } else {
-        setDoc(docRef, { level: 0 });
       }
-    });
-
-    return () => unsubscribe();
-  }, [userId, db]);
-  
-  useEffect(() => {
+    } catch (error) {
+      console.error("Failed to read from localStorage", error);
+    }
+    
+    // Set random messages for each level
     const initialMessages = levels.map((_, index) => getRandomMessage(index));
     setLevelMessages(initialMessages);
   }, []);
 
-
   const updateUserLevel = useCallback(
-    async (newLevel: number) => {
-      if (!userId || newLevel <= currentLevel || !db) return;
+    (newLevel: number) => {
+      if (newLevel <= currentLevel) return;
 
       const previousLevel = currentLevel;
       setCurrentLevel(newLevel);
-      setUnlockedLevels((prev) => Array.from(new Set([...prev, ...Array.from({length: newLevel + 1}, (_,i) => i)])));
-
-      const docRef = doc(db, 'progress', userId);
-      await setDoc(docRef, { level: newLevel }, { merge: true });
       
-      // Show toast for newly unlocked levels, but not for the first one
+      try {
+        localStorage.setItem('seductionJourneyLevel', newLevel.toString());
+      } catch (error) {
+        console.error("Failed to write to localStorage", error);
+      }
+
+      // Show toast for newly unlocked levels
       for (let i = previousLevel + 1; i <= newLevel; i++) {
-        if (i > 0 && !toastShownForLevel.current.has(i)) {
+        if (!toastShownForLevel.current.has(i)) {
           const levelData = levels[i];
           toast.success(`Nível Desbloqueado: ${levelData.name}`, {
             icon: <levelData.icon className="h-6 w-6 text-primary-foreground" />,
@@ -148,12 +102,14 @@ export function SeductionJourney() {
         }
       }
     },
-    [userId, currentLevel, db]
+    [currentLevel]
   );
 
   const handleScroll = useCallback(() => {
-    const scrollPercent =
-      window.scrollY / (document.body.scrollHeight - window.innerHeight);
+    const scrollHeight = document.body.scrollHeight - window.innerHeight;
+    if (scrollHeight <= 0) return;
+    
+    const scrollPercent = window.scrollY / scrollHeight;
 
     let newLevel = 0;
     for (let i = levels.length - 1; i >= 0; i--) {
@@ -168,11 +124,12 @@ export function SeductionJourney() {
   }, [currentLevel, updateUserLevel]);
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll(); // Check on initial load
     return () => window.removeEventListener('scroll', handleScroll);
   }, [handleScroll]);
 
-  const isLevelUnlocked = (levelIndex: number) => unlockedLevels.includes(levelIndex);
+  const isLevelUnlocked = (levelIndex: number) => levelIndex <= currentLevel;
   const isLevelCompleted = (levelIndex: number) => levelIndex < currentLevel;
 
   return (
