@@ -14,7 +14,7 @@ const learningPoints = [
   {
     title: 'Técnica 2: Posições de Controle',
     description:
-      'Este é o segredo que diferencia os mestres. Não se trata apenas de "saber posições", mas de dominar a dinâmica. Aprenda a alternar ritmo, intensidade e ângulo para transformar o sexo em uma experiência inesquecível, mantendo o controle total do início ao fim.',
+      'Transforme cada relação em uma experiência inesquecível. Conheça posições estratégicas e jogos que aumentam prazer, prolongam o desempenho e deixam sua parceira completamente satisfeita. Técnicas testadas nos bastidores da indústria adulta, adaptadas para você aplicar de forma prática e imediata.',
     image: {
       src: 'https://i.imgur.com/bT7XP0L.jpeg',
       alt: 'Homem em controle',
