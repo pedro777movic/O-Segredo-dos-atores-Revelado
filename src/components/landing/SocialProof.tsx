@@ -14,21 +14,21 @@ import Autoplay from "embla-carousel-autoplay";
 const testimonials = [
   {
     quote:
-      'Foi o santo remédio. Fui de uns 5 min para mais de 1 hora fácil, e só paro agora quando a gata goza 😈',
+      'Nunca mais falhei. Fui de 5 minutos para mais de uma hora e só paro quando ela pede. Mudou o jogo.',
     name: 'André F., 25 anos, Paraty/RJ',
     avatar: 'https://images.unsplash.com/photo-1654514489490-bfa99f660e9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnYXJvdG98ZW58MHx8fHwxNzU4MzM4MzQwfDA&ixlib=rb-4.1.0&q=80&w=1080',
     'data-ai-hint': 'man portrait'
   },
   {
     quote:
-      'Amoor, como você ficou tão bom tão rápido? Quero muito mais, vamos nos ver amanhã de novo, por favor, preciso transar com você!!',
+      'Minha parceira ficou impressionada. A confiança que eu ganhei na cama se reflete em toda a minha vida.',
     name: 'Andressa e Diogo, ambos 22 anos, São Paulo/SP',
     avatar: 'https://i.imgur.com/Yt2Thye.jpeg',
     'data-ai-hint': 'happy couple'
   },
   {
     quote:
-      'Valeu muito a pena! Elas ficam loucas, tem garota implorando pra transar comigo, querem gozar toda hora. Meu corpo e minha mente ficaram em outro nível. Obrigado',
+      'Me sinto 10 anos mais jovem. A potência é outra. Elas ficam loucas, tem garota implorando pra transar comigo.',
     name: 'Paulo, 27 anos, Joinville/SC',
     avatar: 'https://i.imgur.com/8RODqEe.jpeg',
     'data-ai-hint': 'man smiling'
@@ -42,7 +42,7 @@ const testimonials = [
   },
   {
     quote:
-      'Eu não tinha confiança porque naquelas horas eu sempre decepcionava as mulheres que eu ficava. Obrigado! A sensação é que agora eu sou outro homem, não tenho mais limites na cama!',
+      'Eu não tinha confiança porque sempre decepcionava. Obrigado! Agora eu sou outro homem, não tenho mais limites na cama!',
     name: 'Samuel, 30 anos, Petrolina/PE',
     avatar: 'https://images.unsplash.com/photo-1700955532354-5e490b711789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnYXJvdG98ZW58MHx8fHwxNzU4MzMियांMjQwfDA&ixlib=rb-4.1.0&q=80&w=1080',
     'data-ai-hint': 'confident couple'
@@ -55,7 +55,7 @@ export function SocialProof() {
     <section id="social-proof" className="py-8">
       <div className="text-center">
         <h2 className="mb-4 font-headline text-3xl font-bold md:text-4xl">
-          Homens Comuns, Resultados de Ator
+          Centenas de homens já transformaram sua vida íntima
         </h2>
         <p className="mb-8 text-lg text-muted-foreground">
           Veja o que eles estão dizendo após descobrir o segredo.

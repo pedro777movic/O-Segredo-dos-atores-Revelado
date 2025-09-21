@@ -1,10 +1,10 @@
 import { CheckCircle2 } from 'lucide-react';
 
 const quickBenefits = [
-  'Durar até 3x mais sem perder a potência',
-  'Controlar o prazer e decidir quando terminar',
-  'Deixar sua parceira no limite e pedindo mais',
-  'Aumentar sua confiança em qualquer situação',
+  'Controle absoluto da performance',
+  'Prazer inesquecível para a parceira',
+  'Confiança e presença masculina',
+  'Leve ela ao limite todas as vezes',
 ];
 
 export function QuickBenefits() {
@@ -24,5 +24,5 @@ export function QuickBenefits() {
         </ul>
       </div>
     </section>
-  );
+  );  
 }

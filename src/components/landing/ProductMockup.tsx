@@ -15,12 +15,12 @@ const mockups = [
 
 export function ProductMockup() {
   return (
-    <section id="product" className="py-8">
+    <section id="product" className="relative z-10 py-8">
       <div className="mx-auto grid max-w-4xl grid-cols-1 gap-8 md:grid-cols-2">
         {mockups.map((mockup, index) => (
           <div
             key={index}
-            className="group relative aspect-[3/4] w-full transform overflow-hidden rounded-lg shadow-xl transition-transform duration-300 hover:scale-105"
+            className="group relative aspect-square w-full transform overflow-hidden rounded-lg shadow-xl transition-transform duration-300 hover:scale-105 md:aspect-[3/4]"
           >
             <Image
               src={mockup.src}
@@ -33,9 +33,6 @@ export function ProductMockup() {
           </div>
         ))}
       </div>
-      <p className="mt-6 text-center text-lg font-semibold text-muted-foreground">
-        Versão App-Book
-      </p>
     </section>
   );
 }

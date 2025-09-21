@@ -1,11 +1,12 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Check, Clock } from 'lucide-react';
+import { Check } from 'lucide-react';
+import { DynamicScarcity } from './DynamicScarcity';
 
 const plans = [
   {
     title: 'COMBO COMPLETO',
-    subtitle: 'Visualize o conteúdo abaixo',
+    subtitle: 'Acesso Imediato a Todo o Conteúdo',
     price: '47,00',
     currency: 'R$',
     originalPrice: '97,00',
@@ -15,7 +16,7 @@ const plans = [
       'Posição: O Que Diferencia O Homem Comum Dos Mestres Da Performance',
       'Performance e Potência: Domine a Retardação Ejaculatória e Obtenha Máxima Potência',
     ],
-    buttonText: 'Liberar o Segredo Agora',
+    buttonText: 'Quero meu ebook agora',
     bgColor: 'bg-primary',
     textColor: 'text-primary-foreground',
     borderColor: 'border-primary',
@@ -27,13 +28,14 @@ const plans = [
 export function Pricing() {
   return (
     <section id="pricing" className="py-8">
-      <h2 className="mb-2 text-center font-headline text-3xl font-bold md:text-4xl">
-        O que você vai receber
-      </h2>
-      <p className="mb-8 flex items-center justify-center gap-2 text-center text-lg font-semibold text-primary">
-        <Clock className="h-5 w-5" />
-        <span>Oferta por tempo limitado!</span>
-      </p>
+      <div className="mb-8 text-center">
+        <h2 className="mb-2 font-headline text-3xl font-bold md:text-4xl">
+          Garanta seu acesso antes que acabe
+        </h2>
+        <div className="flex items-center justify-center">
+         <DynamicScarcity productName="O Segredo Nº1" />
+        </div>
+      </div>
       <div className="flex justify-center">
         {plans.map((plan, index) => (
           <Card

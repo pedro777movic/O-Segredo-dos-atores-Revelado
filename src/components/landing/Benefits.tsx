@@ -10,15 +10,15 @@ import {
 const benefits = [
   {
     icon: Star,
-    text: 'Acesse os segredos dos bastidores da indústria, usados por atores para ter controle total e performance máxima.',
+    text: 'Acesse os segredos dos bastidores da indústria, para ter controle total e performance máxima.',
   },
   {
     icon: ThumbsUp,
-    text: 'Acabe com a insegurança e vire o homem que domina a relação e que ela não esquece.',
+    text: 'Acabe com a insegurança e vire o homem que ela não esquece, que domina a relação.',
   },
   {
     icon: Zap,
-    text: 'Prolongue o prazer e decida o momento certo de terminar, levando ela ao limite todas as vezes.',
+    text: 'Prolongue o prazer e decida o momento certo de terminar, levando ela ao limite.',
   },
   {
     icon: BrainCircuit,
