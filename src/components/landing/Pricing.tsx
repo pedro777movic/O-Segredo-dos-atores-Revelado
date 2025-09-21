@@ -21,7 +21,7 @@ const plans = [
     textColor: 'text-primary-foreground',
     borderColor: 'border-primary',
     primary: true,
-    badge: 'OFERTA DE LANÇAMENTO',
+    badge: 'Mais de 1.750 usuários',
   },
 ];
 
