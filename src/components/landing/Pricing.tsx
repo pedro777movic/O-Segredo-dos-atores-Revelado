@@ -83,7 +83,7 @@ export function Pricing() {
                 <Button
                   asChild
                   size="lg"
-                  className={`w-full text-lg font-bold ${plan.primary ? 'bg-background text-foreground hover:bg-background/90' : ''}`}
+                  className={`w-full text-lg font-bold shadow-lg shadow-primary/30 animate-pulse ${plan.primary ? 'bg-primary text-primary-foreground hover:bg-primary/90' : ''}`}
                 >
                   <a href="https://pay.cakto.com.br/ajsxsz2_562111">
                     {plan.buttonText}
