@@ -42,7 +42,7 @@ export function ImageCarousel() {
           loop: true,
         }}
       >
-        <CarouselContent className="-ml-4 h-[650px]">
+        <CarouselContent className="-ml-4 h-[450px] md:h-[600px]">
           {slides.map((slide, index) => (
             <CarouselItem key={index} className="pl-4">
               <div className="relative h-full w-full overflow-hidden rounded-lg shadow-2xl">
@@ -50,7 +50,7 @@ export function ImageCarousel() {
                   src={slide.src}
                   alt={slide.alt}
                   fill
-                  className="object-contain"
+                  className="object-cover"
                   data-ai-hint={slide['data-ai-hint']}
                   sizes="(max-width: 768px) 100vw, 80vw"
                 />
@@ -58,8 +58,8 @@ export function ImageCarousel() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="left-4" />
-        <CarouselNext className="right-4" />
+        <CarouselPrevious className="left-2 md:left-4" />
+        <CarouselNext className="right-2 md:right-4" />
       </Carousel>
     </section>
   );
