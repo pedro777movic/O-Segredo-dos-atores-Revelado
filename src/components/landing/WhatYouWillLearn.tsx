@@ -4,7 +4,7 @@ const learningPoints = [
   {
     title: 'Técnica 1: Sedução Magnética',
     description:
-      'Descubra que a performance não começa na cama, mas na energia que você projeta. Aprenda a usar o olhar, o toque e a condução para criar uma tensão irresistível, preparando o terreno para uma experiência explosiva, exatamente como os profissionais da indústria adulta fazem.',
+      'Aprenda a conduzir o prazer dela como um verdadeiro profissional. Técnicas de conexão, ritmo e comunicação sutil que fazem qualquer parceira se sentir especial e envolvida. Descubra como ser inesquecível, aumentar intimidade e criar momentos memoráveis que ninguém vai esquecer.',
     image: {
       src: 'https://i.imgur.com/wMmC5hx.jpeg',
       alt: 'Capa do Ebook com fundo preto e dourado',
