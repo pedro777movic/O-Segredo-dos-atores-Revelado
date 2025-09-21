@@ -14,6 +14,7 @@ import { QuickBenefits } from '@/components/landing/QuickBenefits';
 import { DynamicScarcity } from '@/components/landing/DynamicScarcity';
 import { AppBookExplanation } from '@/components/landing/AppBookExplanation';
 import { ImageCarousel } from '@/components/landing/ImageCarousel';
+import { SeductionJourney } from '@/components/landing/SeductionJourney';
 
 export default function Home() {
   return (
@@ -39,6 +40,8 @@ export default function Home() {
           </section>
 
           <QuickBenefits />
+          <Separator className="my-8 md:my-12" />
+          <SeductionJourney />
           <Separator className="my-8 md:my-12" />
           <AppBookExplanation />
           <Separator className="my-8 md:my-12" />

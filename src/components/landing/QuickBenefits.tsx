@@ -1,9 +1,9 @@
 import { CheckCircle2 } from 'lucide-react';
 
 const quickBenefits = [
-  'Controle absoluto da performance',
-  'Prazer inesquecível para a parceira',
-  'Confiança e presença masculina',
+  'Controle absoluto da ejaculação',
+  'Prazer até ela pedir pra parar',
+  'Confiança de um verdadeiro macho alfa',
   'Leve ela ao limite todas as vezes',
 ];
 
