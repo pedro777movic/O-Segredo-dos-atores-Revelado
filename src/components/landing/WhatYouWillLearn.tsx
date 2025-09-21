@@ -24,7 +24,7 @@ const learningPoints = [
   {
     title: 'Método 3: Performance e Potência Máxima',
     description:
-      'Domine os exercícios práticos para controlar sua excitação, retardar o clímax e manter uma potência inabalável. Revelamos os hábitos físicos, alimentares e as técnicas de bastidores que os atores usam para garantir performance máxima em todas as cenas.',
+      'Descubra os segredos que os atores pornôs usam para manter ereções firmes, durar mais tempo e ter controle total da performance. Aprenda técnicas comprovadas para transformar insegurança em confiança absoluta, aumentar resistência e dominar cada momento na cama. Resultados que você sente desde a primeira aplicação.',
     image: {
       src: 'https://i.imgur.com/PcQnoFn.jpeg',
       alt: 'Homem potente',
