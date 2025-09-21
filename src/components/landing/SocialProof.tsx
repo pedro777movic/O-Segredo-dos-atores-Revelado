@@ -7,6 +7,7 @@ import {
 } from '@/components/ui/carousel';
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import Autoplay from "embla-carousel-autoplay";
 
 const testimonials = [
   {
@@ -41,7 +42,7 @@ const testimonials = [
     quote:
       'Eu não tinha confiança porque naquelas horas eu sempre decepcionava as mulheres que eu ficava. Obrigado! A sensação é que agora eu sou outro homem, não tenho mais limites na cama!',
     name: 'Samuel, 30 anos, Petrolina/PE',
-    avatar: 'https://images.unsplash.com/photo-1700955532354-5e490b711789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnYXJvdG98ZW58MHx8fHwxNzU4MzM4MzQwfDA&ixlib=rb-4.1.0&q=80&w=1080',
+    avatar: 'https://images.unsplash.com/photo-1700955532354-5e490b711789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnYXJvdG98ZW58MHx8fHwxNzU4MzMियांMjQwfDA&ixlib=rb-4.1.0&q=80&w=1080',
     'data-ai-hint': 'confident couple'
   },
 ];
@@ -52,10 +53,10 @@ export function SocialProof() {
     <section id="social-proof" className="py-8">
       <div className="text-center">
         <h2 className="mb-4 font-headline text-3xl font-bold md:text-4xl">
-          O Que Eles Estão Dizendo
+          Homens Comuns, Resultados de Ator
         </h2>
         <p className="mb-8 text-lg text-muted-foreground">
-          São centenas de relatos de homens e de suas parceiras.
+          Veja o que eles estão dizendo após descobrir o segredo.
         </p>
       </div>
       <Carousel
@@ -63,7 +64,13 @@ export function SocialProof() {
           align: 'start',
           loop: true,
         }}
-        className="mx-auto w-full max-w-4xl"
+        plugins={[
+          Autoplay({
+            delay: 3000,
+            stopOnInteraction: true,
+          }),
+        ]}
+        className="mx-auto w-full max-w-6xl"
       >
         <CarouselContent>
           {testimonials.map((testimonial, index) => (
@@ -72,9 +79,9 @@ export function SocialProof() {
               className="md:basis-1/2 lg:basis-1/3"
             >
               <div className="p-1">
-                <Card className="h-full bg-secondary/30">
+                <Card className="h-full rounded-xl border-2 border-transparent bg-secondary/30 transition-all hover:border-primary">
                   <CardContent className="flex h-full flex-col items-center justify-center gap-4 p-6 text-center">
-                    <Avatar className="h-20 w-20">
+                    <Avatar className="h-20 w-20 border-2 border-primary/50">
                       <AvatarImage
                         src={testimonial.avatar}
                         alt={`Depoimento de ${testimonial.name}`}
@@ -99,8 +106,8 @@ export function SocialProof() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="left-4" />
-        <CarouselNext className="right-4" />
+        <CarouselPrevious className="left-[-1rem] md:left-4" />
+        <CarouselNext className="right-[-1rem] md:right-4" />
       </Carousel>
     </section>
   );

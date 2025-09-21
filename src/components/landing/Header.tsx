@@ -9,21 +9,15 @@ export function Header() {
             'font-headline text-4xl font-black uppercase tracking-tight text-foreground md:text-6xl'
           )}
         >
-          DESCRUBRA A TÉCNICA MAIS UTILIZADA NESTE MOMENTO PELA{' '}
-          <span className="text-primary">INDÚSTRIA ADULTA</span>
-        </h1>
-        <p className="mt-4 font-headline text-3xl font-bold uppercase md:text-4xl">
+          O Segredo Nº1 dos Atores P** para{' '}
           <span className="text-primary">
-            O Segredo Nº1 dos Atores Pornô
+            durar mais, dar mais prazer e ser inesquecível
           </span>
-        </p>
-        <p className="mt-2 font-headline text-2xl font-bold md:text-3xl">
-          O ápice da potência sexual masculina moderna. Em formato de app-book.
-        </p>
+        </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
-          Você já se perguntou como os atores pornôs conseguem performances
-          intensas, longas e inesquecíveis, mesmo em frente às câmeras, sob
-          pressão e com tantas pessoas assistindo?
+          Descubra como os melhores da indústria conseguem o controle e a
+          resistência que 99% dos homens não têm — e como você pode ter os
+          mesmos resultados ainda hoje.
         </p>
       </div>
     </header>

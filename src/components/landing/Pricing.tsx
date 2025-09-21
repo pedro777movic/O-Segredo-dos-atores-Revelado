@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Check } from 'lucide-react';
+import { Check, Clock } from 'lucide-react';
 
 const plans = [
   {
@@ -15,21 +15,25 @@ const plans = [
       'Posição: O Que Diferencia O Homem Comum Dos Mestres Da Performance',
       'Performance e Potência: Domine a Retardação Ejaculatória e Obtenha Máxima Potência',
     ],
-    buttonText: 'Quero o Combo Completo',
+    buttonText: 'Liberar o Segredo Agora',
     bgColor: 'bg-primary',
     textColor: 'text-primary-foreground',
     borderColor: 'border-primary',
     primary: true,
-    badge: 'Mais de 1.750 usuários',
+    badge: 'OFERTA DE LANÇAMENTO',
   },
 ];
 
 export function Pricing() {
   return (
     <section id="pricing" className="py-8">
-      <h2 className="mb-8 text-center font-headline text-3xl font-bold md:text-4xl">
+      <h2 className="mb-2 text-center font-headline text-3xl font-bold md:text-4xl">
         O que você vai receber
       </h2>
+      <p className="mb-8 flex items-center justify-center gap-2 text-center text-lg font-semibold text-primary">
+        <Clock className="h-5 w-5" />
+        <span>Oferta por tempo limitado!</span>
+      </p>
       <div className="flex justify-center">
         {plans.map((plan, index) => (
           <Card
@@ -52,12 +56,9 @@ export function Pricing() {
             <CardContent className="flex flex-1 flex-col justify-between p-8">
               <div>
                 <div className="mb-6 text-center">
-                  {plan.originalPrice && (
-                    <p className="text-lg text-muted-foreground line-through">
-                      {plan.currency}
-                      {plan.originalPrice}
-                    </p>
-                  )}
+                  <p className="text-lg text-muted-foreground">
+                    De <span className="line-through">R${plan.originalPrice}</span> por apenas:
+                  </p>
                   <p className="font-headline text-6xl font-extrabold">
                     <span className="text-3xl font-normal">{plan.currency}</span>
                     {plan.price}

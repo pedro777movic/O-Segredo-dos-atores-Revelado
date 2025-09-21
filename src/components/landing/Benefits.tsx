@@ -1,7 +1,7 @@
 import {
   Star,
-  Leaf,
-  Ban,
+  Zap,
+  ThumbsUp,
   BrainCircuit,
   Smartphone,
   ShieldCheck,
@@ -10,27 +10,27 @@ import {
 const benefits = [
   {
     icon: Star,
-    text: 'Acesse segredos que só circulam nos bastidores da indústria, usados por atores pornôs para ter controle total no sexo.',
+    text: 'Acesse os segredos dos bastidores da indústria, usados por atores para ter controle total e performance máxima.',
   },
   {
-    icon: Leaf,
-    text: 'Possuir confiança durante toda a relação.',
+    icon: ThumbsUp,
+    text: 'Acabe com a insegurança e vire o homem que domina a relação e que ela não esquece.',
   },
   {
-    icon: Ban,
-    text: 'Prolongue o prazer e decida o momento certo para a ejaculação.',
+    icon: Zap,
+    text: 'Prolongue o prazer e decida o momento certo de terminar, levando ela ao limite todas as vezes.',
   },
   {
     icon: BrainCircuit,
-    text: 'Máxima resistência física e mental para estender seu tempo na cama.',
+    text: 'Aguente o dobro do tempo sem perder a potência e a intensidade, do começo ao fim.',
   },
   {
     icon: Smartphone,
-    text: 'Acesso imediato com leituras rápidas. Em formato de app-book. Basta acessar e pronto.',
+    text: 'Acesso imediato no seu celular com o app-book. Sem precisar instalar nada, basta acessar e usar.',
   },
   {
     icon: ShieldCheck,
-    text: 'Seguro e discreto, cabe no seu bolso. Acesse sempre que quiser.',
+    text: 'Método 100% seguro e discreto que você pode usar em qualquer lugar, a qualquer hora.',
   },
 ];
 
