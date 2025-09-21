@@ -10,13 +10,16 @@ import {
   getDoc,
   setDoc,
   onSnapshot,
+  Firestore,
 } from 'firebase/firestore';
-import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
+import {
+  getAuth,
+  signInAnonymously,
+  onAuthStateChanged,
+  Auth,
+} from 'firebase/auth';
 import { app } from '@/lib/firebase';
 import toast from 'react-hot-toast';
-
-const db = getFirestore(app);
-const auth = getAuth(app);
 
 const levels = [
   {
@@ -71,13 +74,21 @@ export function SeductionJourney() {
   const journeyRef = useRef<HTMLDivElement>(null);
   const toastShownForLevel = useRef<Set<number>>(new Set());
 
+  const [auth, setAuth] = useState<Auth | null>(null);
+  const [db, setDb] = useState<Firestore | null>(null);
+
   useEffect(() => {
-    const handleAuthStateChanged = onAuthStateChanged(auth, async (user) => {
+    const authInstance = getAuth(app);
+    const dbInstance = getFirestore(app);
+    setAuth(authInstance);
+    setDb(dbInstance);
+
+    const handleAuthStateChanged = onAuthStateChanged(authInstance, async (user) => {
       if (user) {
         setUserId(user.uid);
       } else {
         try {
-          await signInAnonymously(auth);
+          await signInAnonymously(authInstance);
         } catch (error) {
           console.error("Anonymous sign in failed", error);
         }
@@ -87,7 +98,7 @@ export function SeductionJourney() {
   }, []);
 
   useEffect(() => {
-    if (!userId) return;
+    if (!userId || !db) return;
     const docRef = doc(db, 'progress', userId);
 
     const unsubscribe = onSnapshot(docRef, (docSnap) => {
@@ -95,9 +106,8 @@ export function SeductionJourney() {
         const data = docSnap.data();
         const serverLevel = data.level || 0;
         setCurrentLevel(serverLevel);
-        setUnlockedLevels(
-          Array.from({ length: serverLevel + 1 }, (_, i) => i)
-        );
+        const newUnlocked = Array.from({ length: serverLevel + 1 }, (_, i) => i);
+        setUnlockedLevels(newUnlocked);
          // Mark toasts as shown for levels already unlocked
          for (let i = 0; i <= serverLevel; i++) {
           toastShownForLevel.current.add(i);
@@ -108,7 +118,7 @@ export function SeductionJourney() {
     });
 
     return () => unsubscribe();
-  }, [userId]);
+  }, [userId, db]);
   
   useEffect(() => {
     const initialMessages = levels.map((_, index) => getRandomMessage(index));
@@ -118,14 +128,12 @@ export function SeductionJourney() {
 
   const updateUserLevel = useCallback(
     async (newLevel: number) => {
-      if (!userId || newLevel <= currentLevel) return;
+      if (!userId || newLevel <= currentLevel || !db) return;
 
       const previousLevel = currentLevel;
       setCurrentLevel(newLevel);
+      setUnlockedLevels((prev) => Array.from(new Set([...prev, ...Array.from({length: newLevel + 1}, (_,i) => i)])));
 
-      if (!unlockedLevels.includes(newLevel)) {
-        setUnlockedLevels((prev) => [...prev, newLevel]);
-      }
       const docRef = doc(db, 'progress', userId);
       await setDoc(docRef, { level: newLevel }, { merge: true });
       
@@ -140,7 +148,7 @@ export function SeductionJourney() {
         }
       }
     },
-    [userId, currentLevel, unlockedLevels]
+    [userId, currentLevel, db]
   );
 
   const handleScroll = useCallback(() => {
@@ -154,8 +162,10 @@ export function SeductionJourney() {
         break;
       }
     }
-    updateUserLevel(newLevel);
-  }, [updateUserLevel]);
+    if (newLevel > currentLevel) {
+      updateUserLevel(newLevel);
+    }
+  }, [currentLevel, updateUserLevel]);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
