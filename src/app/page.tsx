@@ -34,7 +34,7 @@ export default function Home() {
               className="w-full max-w-md animate-pulse rounded-full text-lg font-bold shadow-lg shadow-primary/30"
               asChild
             >
-              <a href="#pricing">Liberar meu poder sexual agora</a>
+              <a href="#pricing">Liberar minha potência sexual</a>
             </Button>
             <DynamicScarcity productName="O Segredo Nº1" />
           </section>
