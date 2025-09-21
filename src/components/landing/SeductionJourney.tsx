@@ -57,6 +57,7 @@ const levels = [
 ];
 
 const getRandomMessage = (levelIndex: number) => {
+  if (levelIndex < 0 || levelIndex >= levels.length) return '';
   const messages = levels[levelIndex].messages;
   return messages[Math.floor(Math.random() * messages.length)];
 };
@@ -73,7 +74,11 @@ export function SeductionJourney() {
       if (user) {
         setUserId(user.uid);
       } else {
-        await signInAnonymously(auth);
+        try {
+          await signInAnonymously(auth);
+        } catch (error) {
+          console.error("Anonymous sign in failed", error);
+        }
       }
     });
     return () => handleAuthStateChanged();
@@ -144,8 +149,8 @@ export function SeductionJourney() {
 
   return (
     <section id="seduction-journey" className="py-8" ref={journeyRef}>
-      <div className="relative mx-auto w-full max-w-2xl">
-        <div className="absolute left-0 top-5 h-1 w-full -translate-y-1/2 bg-border">
+      <div className="relative mx-auto w-full max-w-2xl px-4 md:px-0">
+        <div className="absolute left-1/2 top-5 h-1 w-[calc(100%-4rem)] -translate-x-1/2 -translate-y-1/2 bg-border">
           <div
             className="h-1 bg-primary transition-all duration-500"
             style={{
@@ -179,9 +184,9 @@ export function SeductionJourney() {
                   />
                 )}
               </div>
-              <div className="mt-2 w-32 text-center">
+              <div className="mt-2 w-20 text-center md:w-32">
                 <p
-                  className={cn('font-bold', {
+                  className={cn('text-xs font-bold md:text-sm', {
                     'text-foreground': isLevelUnlocked(index),
                     'text-muted-foreground': !isLevelUnlocked(index),
                   })}
@@ -189,7 +194,7 @@ export function SeductionJourney() {
                   {level.name}
                 </p>
                 {isLevelUnlocked(index) && (
-                  <p className="text-xs text-muted-foreground">
+                  <p className="hidden text-xs text-muted-foreground md:block">
                     {levelMessages[index]}
                   </p>
                 )}
@@ -200,7 +205,7 @@ export function SeductionJourney() {
       </div>
 
       {currentLevel >= levels.length - 1 && (
-        <div className="mt-8 flex flex-col items-center text-center">
+        <div className="mt-8 flex flex-col items-center px-4 text-center">
           <h3 className="text-2xl font-bold text-primary">
             {getRandomMessage(levels.length - 1)}
           </h3>
