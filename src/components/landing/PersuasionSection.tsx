@@ -7,7 +7,7 @@ export function PersuasionSection() {
           <span className="text-primary">
             controle e potência mesmo sob pressão
           </span>{' '}
-          e como aplicar isso na vida real.
+          e como aplicar as mesmas técnicas na vida real.
         </h2>
         <p className="text-xl text-muted-foreground md:text-2xl">
           Com este app-book em mãos, você terá o mesmo controle, resistência e confiança dos atores de maior performance da indústria. Surpreenda qualquer parceira com um nível de entrega que ela jamais esquecerá.

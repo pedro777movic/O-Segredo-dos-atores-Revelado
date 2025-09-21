@@ -26,7 +26,7 @@ const benefits = [
   },
   {
     icon: Smartphone,
-    text: 'Acesso imediato no seu celular com o app-book. Sem precisar instalar nada, basta acessar e usar.',
+    text: 'Acesso imediato no seu celular com o app-book. Sem precisar instalar nada, basta acessar e usar o método.',
   },
   {
     icon: ShieldCheck,

@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 const learningPoints = [
   {
-    title: 'Sedução',
+    title: 'Técnica 1: Sedução Magnética',
     description:
-      'Neste módulo, você vai descobrir que sedução não é um truque barato, mas sim uma energia real que desperta desejo e cria conexão profunda. Os atores da indústria adulta sabem: a performance não começa na cama, mas muito antes. A forma como você olha, fala, toca e conduz a situação já prepara o terreno para uma experiência explosiva.',
+      'Descubra que a performance não começa na cama, mas na energia que você projeta. Aprenda a usar o olhar, o toque e a condução para criar uma tensão irresistível, preparando o terreno para uma experiência explosiva, exatamente como os profissionais da indústria adulta fazem.',
     image: {
       src: 'https://i.imgur.com/wMmC5hx.jpeg',
       alt: 'Capa do Ebook com fundo preto e dourado',
@@ -12,9 +12,9 @@ const learningPoints = [
     },
   },
   {
-    title: 'Posição',
+    title: 'Técnica 2: Posições de Controle',
     description:
-      'Se existe um segredo que diferencia os homens comuns dos mestres da performance sexual, ele está aqui. Não basta apenas “saber algumas posições”. O que faz a diferença é como você joga com elas, alternando ritmo, intensidade e conexão para transformar o sexo em uma experiência dinâmica e inesquecível.',
+      'Este é o segredo que diferencia os mestres. Não se trata apenas de "saber posições", mas de dominar a dinâmica. Aprenda a alternar ritmo, intensidade e ângulo para transformar o sexo em uma experiência inesquecível, mantendo o controle total do início ao fim.',
     image: {
       src: 'https://i.imgur.com/bT7XP0L.jpeg',
       alt: 'Homem em controle',
@@ -22,9 +22,9 @@ const learningPoints = [
     },
   },
   {
-    title: 'Performance e potência',
+    title: 'Método 3: Performance e Potência Máxima',
     description:
-      'Você vai aprender a controlar sua excitação, aumentar sua resistência e manter firmeza mesmo nas situações mais intensas. Aqui revelamos exercícios práticos que dão controle absoluto sobre o momento do clímax. Além disso, mostramos hábitos físicos e alimentares que sustentam a potência natural, e técnicas usadas nos bastidores por atores profissionais para performance e para entrar em cena sempre confiantes.',
+      'Domine os exercícios práticos para controlar sua excitação, retardar o clímax e manter uma potência inabalável. Revelamos os hábitos físicos, alimentares e as técnicas de bastidores que os atores usam para garantir performance máxima em todas as cenas.',
     image: {
       src: 'https://i.imgur.com/PcQnoFn.jpeg',
       alt: 'Homem potente',
@@ -37,7 +37,7 @@ export function WhatYouWillLearn() {
   return (
     <section id="what-you-will-learn" className="py-8">
       <h2 className="mb-10 text-center font-headline text-3xl font-bold md:text-4xl">
-        O Que Você Vai Aprender
+        O Que Você Vai Aprender no APP-BOOK
       </h2>
       <div className="space-y-10">
         {learningPoints.map((point, index) => (
