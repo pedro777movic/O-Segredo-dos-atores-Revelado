@@ -16,7 +16,7 @@ const plans = [
       'Posição: O Que Diferencia O Homem Comum Dos Mestres Da Performance',
       'Performance e Potência: Domine a Retardação Ejaculatória e Obtenha Máxima Potência',
     ],
-    buttonText: 'Quero meu ebook agora',
+    buttonText: 'Quero meu acesso agora',
     bgColor: 'bg-primary',
     textColor: 'text-primary-foreground',
     borderColor: 'border-primary',
@@ -33,7 +33,7 @@ export function Pricing() {
           Garanta seu acesso antes que acabe
         </h2>
         <div className="flex items-center justify-center">
-         <DynamicScarcity productName="O Segredo Nº1" />
+          <DynamicScarcity productName="O Segredo Nº1" />
         </div>
       </div>
       <div className="flex justify-center">
@@ -59,10 +59,14 @@ export function Pricing() {
               <div>
                 <div className="mb-6 text-center">
                   <p className="text-lg text-muted-foreground">
-                    De <span className="line-through">R${plan.originalPrice}</span> por apenas:
+                    De{' '}
+                    <span className="line-through">R${plan.originalPrice}</span>{' '}
+                    por apenas:
                   </p>
                   <p className="font-headline text-6xl font-extrabold">
-                    <span className="text-3xl font-normal">{plan.currency}</span>
+                    <span className="text-3xl font-normal">
+                      {plan.currency}
+                    </span>
                     {plan.price}
                   </p>
                 </div>
@@ -81,7 +85,9 @@ export function Pricing() {
                   size="lg"
                   className={`w-full text-lg font-bold ${plan.primary ? 'bg-background text-foreground hover:bg-background/90' : ''}`}
                 >
-                  <a href="https://pay.cakto.com.br/ajsxsz2_562111">{plan.buttonText}</a>
+                  <a href="https://pay.cakto.com.br/ajsxsz2_562111">
+                    {plan.buttonText}
+                  </a>
                 </Button>
               </div>
             </CardContent>

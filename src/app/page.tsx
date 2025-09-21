@@ -1,5 +1,4 @@
 import { Header } from '@/components/landing/Header';
-import { ImageCarousel } from '@/components/landing/ImageCarousel';
 import { Button } from '@/components/ui/button';
 import { Benefits } from '@/components/landing/Benefits';
 import { ProductMockup } from '@/components/landing/ProductMockup';
@@ -11,10 +10,9 @@ import { Separator } from '@/components/ui/separator';
 import { Pricing } from '@/components/landing/Pricing';
 import { Footer } from '@/components/landing/Footer';
 import { WhatYouWillLearn } from '@/components/landing/WhatYouWillLearn';
-import { VSL } from '@/components/landing/VSL';
-import { SeductionJourney } from '@/components/landing/SeductionJourney';
 import { QuickBenefits } from '@/components/landing/QuickBenefits';
 import { DynamicScarcity } from '@/components/landing/DynamicScarcity';
+import { AppBookExplanation } from '@/components/landing/AppBookExplanation';
 
 export default function Home() {
   return (
@@ -34,15 +32,17 @@ export default function Home() {
               className="w-full max-w-md animate-pulse rounded-full text-lg font-bold shadow-lg shadow-primary/30"
               asChild
             >
-              <a href="#pricing">Quero meu ebook agora</a>
+              <a href="#pricing">Quero meu acesso agora</a>
             </Button>
             <DynamicScarcity productName="O Segredo Nº1" />
           </section>
 
           <QuickBenefits />
           <Separator className="my-8" />
+          <AppBookExplanation />
+          <Separator className="my-8" />
           <Benefits />
-           <section
+          <section
             id="cta-benefits"
             className="flex flex-col items-center gap-2 py-8 text-center"
           >
@@ -58,7 +58,7 @@ export default function Home() {
           <PersuasionSection />
           <Separator className="my-8" />
           <SocialProof />
-           <section
+          <section
             id="cta-social"
             className="flex flex-col items-center gap-2 py-8 text-center"
           >
