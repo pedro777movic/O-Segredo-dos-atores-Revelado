@@ -42,7 +42,7 @@ export function ImageCarousel() {
           loop: true,
         }}
       >
-        <CarouselContent className="-ml-4 h-[450px] md:h-[600px]">
+        <CarouselContent className="-ml-4 h-[400px] md:h-[500px]">
           {slides.map((slide, index) => (
             <CarouselItem key={index} className="pl-4">
               <div className="relative h-full w-full overflow-hidden rounded-lg shadow-2xl">

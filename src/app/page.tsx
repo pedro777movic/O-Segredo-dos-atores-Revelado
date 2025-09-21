@@ -13,6 +13,7 @@ import { WhatYouWillLearn } from '@/components/landing/WhatYouWillLearn';
 import { QuickBenefits } from '@/components/landing/QuickBenefits';
 import { DynamicScarcity } from '@/components/landing/DynamicScarcity';
 import { AppBookExplanation } from '@/components/landing/AppBookExplanation';
+import { ImageCarousel } from '@/components/landing/ImageCarousel';
 
 export default function Home() {
   return (
@@ -38,9 +39,9 @@ export default function Home() {
           </section>
 
           <QuickBenefits />
-          <Separator className="my-8" />
+          <Separator className="my-8 md:my-12" />
           <AppBookExplanation />
-          <Separator className="my-8" />
+          <Separator className="my-8 md:my-12" />
           <Benefits />
           <section
             id="cta-benefits"
@@ -54,9 +55,11 @@ export default function Home() {
               <a href="#pricing">Quero ter o controle total</a>
             </Button>
           </section>
-          <Separator className="my-8" />
+          <Separator className="my-8 md:my-12" />
           <PersuasionSection />
-          <Separator className="my-8" />
+          <Separator className="my-8 md:my-12" />
+          <ImageCarousel />
+          <Separator className="my-8 md:my-12" />
           <SocialProof />
           <section
             id="cta-social"
@@ -70,11 +73,11 @@ export default function Home() {
               <a href="#pricing">Quero a performance de um ator</a>
             </Button>
           </section>
-          <Separator className="my-8" />
+          <Separator className="my-8 md:my-12" />
           <WhatYouWillLearn />
-          <Separator className="my-8" />
+          <Separator className="my-8 md:my-12" />
           <Pricing />
-          <Separator className="my-8" />
+          <Separator className="my-8 md:my-12" />
           <Guarantee />
         </div>
         <FinalCTA />
