@@ -18,7 +18,7 @@ const benefits = [
   },
   {
     icon: Zap,
-    text: 'Prolongue o prazer e decida o momento certo de terminar, levando ela ao limite.',
+    text: 'Prolongue o prazer, decida o momento certo de ejacular, levando ela ao limite.',
   },
   {
     icon: BrainCircuit,
