@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Osegredodosatores',
+  title: 'O Segredo Revelado dos Atores',
   description:
     'Descubra o Segredo Nº1 dos Atores Pornô para uma potência sexual inabalável.',
 };
