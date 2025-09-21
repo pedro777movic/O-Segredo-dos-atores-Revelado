@@ -16,7 +16,7 @@ const plans = [
       'Posição: O Que Diferencia O Homem Comum Dos Mestres Da Performance',
       'Performance e Potência: Domine a Retardação Ejaculatória e Obtenha Máxima Potência',
     ],
-    buttonText: 'Quero meu acesso agora',
+    buttonText: 'Sim, quero o desempenho de um ator pornô',
     bgColor: 'bg-primary',
     textColor: 'text-primary-foreground',
     borderColor: 'border-primary',
