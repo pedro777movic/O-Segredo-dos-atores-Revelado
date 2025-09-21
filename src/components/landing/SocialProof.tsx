@@ -28,7 +28,7 @@ const testimonials = [
   },
   {
     quote:
-      'Me sinto 10 anos mais jovem. A potência é outra. Elas ficam loucas, tem garota implorando pra transar comigo.',
+      "Agora sempre que vou trans*r parece que estou em um filme pornô. A potência é outra. Elas ficam loucas, tem garota implorando pra dormir comigo de novo.",
     name: 'Paulo, 27 anos, Joinville/SC',
     avatar: 'https://i.imgur.com/8RODqEe.jpeg',
     'data-ai-hint': 'man smiling'
