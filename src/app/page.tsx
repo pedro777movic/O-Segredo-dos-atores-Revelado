@@ -13,7 +13,6 @@ import { WhatYouWillLearn } from '@/components/landing/WhatYouWillLearn';
 import { QuickBenefits } from '@/components/landing/QuickBenefits';
 import { DynamicScarcity } from '@/components/landing/DynamicScarcity';
 import { AppBookExplanation } from '@/components/landing/AppBookExplanation';
-import { ImageCarousel } from '@/components/landing/ImageCarousel';
 import { SeductionJourney } from '@/components/landing/SeductionJourney';
 
 export default function Home() {
@@ -60,8 +59,6 @@ export default function Home() {
           </section>
           <Separator className="my-8 md:my-12" />
           <PersuasionSection />
-          <Separator className="my-8 md:my-12" />
-          <ImageCarousel />
           <Separator className="my-8 md:my-12" />
           <SocialProof />
           <section
