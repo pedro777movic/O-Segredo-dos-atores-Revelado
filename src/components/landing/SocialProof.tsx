@@ -21,7 +21,7 @@ const testimonials = [
   },
   {
     quote:
-      'Minha parceira ficou impressionada. A confiança que eu ganhei na cama se reflete em toda a minha vida.',
+      "Amor, o que você tá fazendo pra conseguir fazer eu chegar lá tão rápido? Sério, tá me deixando louca! Já quero de novo",
     name: 'Andressa e Diogo, ambos 22 anos, São Paulo/SP',
     avatar: 'https://i.imgur.com/Yt2Thye.jpeg',
     'data-ai-hint': 'happy couple'
