@@ -7,7 +7,7 @@ const plans = [
   {
     title: 'COMBO COMPLETO',
     subtitle: 'Acesso Imediato a Todo o Conteúdo',
-    price: '47,00',
+    price: '37,00',
     currency: 'R$',
     originalPrice: '97,00',
     features: [
