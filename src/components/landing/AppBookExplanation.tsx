@@ -9,7 +9,7 @@ export function AppBookExplanation() {
           Em formato de APP-BOOK Interativo
         </h3>
         <p className="mt-4 text-lg text-muted-foreground md:text-xl">
-          O APP-BOOK não é apenas um livro digital: é seu guia interativo de alta performance sexual. Todo conteúdo foi adaptado para um formato prático, com navegação fácil, exercícios passo a passo e acesso instantâneo. Transforme sua performance de qualquer lugar, sem precisar imprimir ou carregar arquivos pesados.
+          O APP-BOOK é um aplicativo digital: será seu guia interativo de alta performance sexual. Todo conteúdo foi adaptado para um formato prático, com navegação fácil, exercícios passo a passo e acesso instantâneo. Transforme sua performance de qualquer lugar, sem precisar imprimir ou carregar arquivos pesados.
         </p>
       </div>
     </section>
