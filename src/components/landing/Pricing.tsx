@@ -11,7 +11,7 @@ const plans = [
     currency: 'R$',
     originalPrice: '97,00',
     features: [
-      'APP-BOOK: O Segredo Nº1 dos Atores',
+      'APP-BOOK: O Segredo Nº1 dos Atores Revelado',
       'Módulo 1: A Técnica da Sedução Magnética',
       'Módulo 2: O Método das Posições de Controle',
       'Módulo 3: Performance, Potência e Ejaculação',
