@@ -12,9 +12,9 @@ const plans = [
     originalPrice: '97,00',
     features: [
       'APP-BOOK: O Segredo Nº1 dos Atores Revelado',
-      'Módulo 1: A Técnica da Sedução Magnética',
-      'Módulo 2: O Método das Posições de Controle',
-      'Módulo 3: Performance, Potência e Ejaculação',
+      'Técnica 1: A Sedução Magnética',
+      'Técnica 2: O Método das Posições de Controle',
+      'Técnica 3: Performance, Potência e Ejaculação',
     ],
     buttonText: 'Sim, quero o desempenho de um ator pornô',
     bgColor: 'bg-primary',
