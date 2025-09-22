@@ -14,7 +14,7 @@ const plans = [
       'APP-BOOK: O Segredo Nº1 dos Atores Revelado',
       'Técnica 1: A Sedução Magnética',
       'Técnica 2: O Método das Posições de Controle',
-      'Técnica 3: Performance, Potência e Ejaculação',
+      'Método 3: Performance, Potência e Retardação da Ejaculação',
     ],
     buttonText: 'Sim, quero o desempenho de um ator pornô',
     bgColor: 'bg-primary',
