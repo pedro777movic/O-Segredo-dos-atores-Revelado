@@ -22,7 +22,7 @@ const benefits = [
   },
   {
     icon: BrainCircuit,
-    text: 'Aguente o dobro do tempo sem perder a potência e a intensidade, do começo ao fim.',
+    text: 'Aguente o dobro do tempo sem perder a potência, a intensidade e a boa performance do começo ao fim.',
   },
   {
     icon: Smartphone,
