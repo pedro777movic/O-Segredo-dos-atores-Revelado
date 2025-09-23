@@ -3,7 +3,7 @@ import { CheckCircle2 } from 'lucide-react';
 const quickBenefits = [
   'Controle absoluto da ejaculação',
   'Prazer até ela pedir para parar',
-  'Confiança de um verdadeiro macho alfa',
+  'Confiança e potência de um verdadeiro macho alfa',
   'Leve ela ao limite todas as vezes',
 ];
 
