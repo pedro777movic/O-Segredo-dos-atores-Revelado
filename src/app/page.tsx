@@ -14,6 +14,7 @@ import { QuickBenefits } from '@/components/landing/QuickBenefits';
 import { DynamicScarcity } from '@/components/landing/DynamicScarcity';
 import { AppBookExplanation } from '@/components/landing/AppBookExplanation';
 import { SeductionJourney } from '@/components/landing/SeductionJourney';
+import { AuthorSection } from '@/components/landing/AuthorSection';
 
 export default function Home() {
   return (
@@ -59,6 +60,8 @@ export default function Home() {
           </section>
           <Separator className="my-8 md:my-12" />
           <PersuasionSection />
+          <Separator className="my-8 md:my-12" />
+          <AuthorSection />
           <Separator className="my-8 md:my-12" />
           <SocialProof />
           <section
