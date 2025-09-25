@@ -16,7 +16,7 @@ const testimonials = [
     quote:
       "Não falho mais. Fui de uns 5 minutos pra mais de 1 hora e só paro porque ela pede. Me sinto um ator pornô agora, rs. Valeu!",
     name: 'André F., 25 anos, Paraty/RJ',
-    avatar: 'https://images.unsplash.com/photo-1654514489490-bfa99f660e9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnYXJvdG98ZW58MHx8fHwxNzU4MzM4MzQwfDA&ixlib=rb-4.1.0&q=80&w=1080',
+    avatar: 'https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?q=80&w=1974&auto=format&fit=crop',
     'data-ai-hint': 'man portrait'
   },
   {
