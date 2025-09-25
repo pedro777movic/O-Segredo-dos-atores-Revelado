@@ -39,6 +39,12 @@ const nextConfig: NextConfig = {
         hostname: 'osegredodosatores.netlify.app',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.pinimg.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

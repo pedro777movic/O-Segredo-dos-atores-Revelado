@@ -37,7 +37,7 @@ const testimonials = [
     quote:
       "Quem mais gostou foi minha noiva, nosso sexo ficou maravilhoso. Antes ela até fazia umas piadinhas por causa da minha performance, mas já parou, agora eu que vou até ela não aguentar mais.",
     name: 'Fernando, 33 anos, Cuiabá/MT',
-    avatar: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop',
+    avatar: 'https://i.pinimg.com/736x/43/38/10/433810d6ef4c96fad8f89df8c5fe06ec.jpg',
     'data-ai-hint': 'man selfie'
   },
   {
